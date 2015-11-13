@@ -1,0 +1,20 @@
+- Programa para adquirir novos lojistas e de faturamento
+
+	Ator: Lojista
+	
+		Plano: Se é novo membro, ganha um mês grátis para criar a loja.
+		Se já é membro, escolhe um plano e para cada plano existe uma quantidade limitida de produtos para adicionar na loja virutal.
+		
+		Indicação: Se é membro do site, indicar um novo lojista para participar tem direito a 1 mês de graça. 
+		obs:Indicação cumulativa, ele ganha 1 mês para cada indicação.
+	
+	Ator: Consumidor
+		
+		Plano: Ser membro e buscar, comparar,etc é de graça
+		
+		Indicação: Se é membro do site, indicar um novo lojista para participar, ganharia um cupom do site
+		para ser utilizado na compra de um produto na loja do indicado se o lojista indicado aceitar*.
+
+		*O desconto seria dado pelo próprio lojista indicado, ele então pode aceitar ou não na hora do cadastro no site.
+		Aceitando ele ganharia, dependendo do valor do desconto, dias ou um mês de loja de virtual no site.
+		Caso contrário o indicador não ganha nenhum cupom.

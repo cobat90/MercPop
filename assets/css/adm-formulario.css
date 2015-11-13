@@ -1,0 +1,401 @@
+
+.boxFormularioGeral
+{
+
+}
+
+.linhaFormulario
+{
+	margin-bottom: 15px;
+}
+
+.colunaUnicaFormulario
+{
+
+}
+
+
+/*INÃ�CIO NOVA CLASSE DO TITULO DO CAMPO*/
+
+/*Ao utilizar .tituloCampoLateral, utilizar na div pai anterior a classe .colunaVariasFormulario par aobter o resultado de alinhamento vertical*/
+.tituloCampoLateral
+{
+    display: table-cell;
+    float: none;
+    font-weight: 600;
+    height: 30px;
+    line-height: 15px;
+    padding-right: 6px;
+    padding-top: 0;
+    vertical-align: middle;
+}
+
+.colunaVariasFormulario
+{
+	display:table;
+}
+
+.tituloCampoTopo
+{
+    display: table-cell;
+	font-size: 13px;
+    font-weight: 600;
+    height: 20px;
+}
+
+/*largura tÃ­tulos*/
+.tituloLarguraPequena
+{
+	width:70px;
+}
+
+.tituloLarguraMedia
+{
+	/*120*/
+	width:146px;
+}
+
+.tituloLarguraGrande
+{	/*160*/
+	width:200px;
+}
+
+.tituloLarguraMaior
+{	/*160*/
+	width:300px;
+}
+
+.tituloLarguraPersonalizada
+{
+
+}
+
+
+/*Cor do TÃ­tulo*/
+.corTitulo
+{
+}
+/*FIM NOVA CLASSE DO TITULO DO CAMPO*/
+
+/*INÃ�CIO POSICIONAMENTO DOS TEXTOS*/
+.textoEsquerda
+{
+	text-align:left;
+}
+
+.textoCentro
+{
+	text-align:center;
+}
+
+.textoDireita
+{
+	text-align:right;
+}
+/*FIM POSICIONAMENTO DOS TEXTOS*/
+
+/*INÃ�CIO TAMANHOS PADRÃƒO DAS LARGURAS*/
+.larguraPadraoMenor
+{
+	width: 145px;
+}
+
+.larguraPadraoMedia
+{
+	width: 305px;
+}
+
+.larguraPadraoMaior
+{
+	width: 625px;
+}
+/*FIM TAMANHOS PADRÃƒO DAS LARGURAS*/
+
+.boxCamposLinha
+{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+
+.labelFormVarios
+{
+	float: left;
+	font-size: 13px;
+	height: 30px;
+	font-weight: 600;
+	padding-top: 5px;
+	padding-right: 6px;
+	text-align: right;
+	width: 160px;
+}
+
+.labelFormUnico
+{
+	font-size: 13px;
+	height: 30px;
+	font-weight: 600;
+	padding-top: 5px;
+	padding-right: 6px;
+	text-align: left;
+	width: 160px;
+}
+
+.colunaFlutuante15
+{
+	float: left;
+	margin-right: 15px;
+}
+
+.campoFormulario
+{
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.semHeight
+{
+	height: auto;
+}
+
+.corretoValidacaoFormulario
+{
+	background: #deebc9;
+	color: #708843;
+	font-size: 12px;
+	height: 60px;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+.boxConteudoBlocoPagina .corretoValidacaoFormulario, .boxConteudoBlocoPagina .erroValidacaoFormulario
+{
+	min-width: 300px;
+	max-width: 698px;
+}
+
+.corretoValidacaoFormulario strong
+{
+	color: #496800;
+}
+
+.erroValidacaoFormulario
+{
+	background: #e7bebe;
+	color: #6f1b1b;
+	font-size: 13px;
+	height: 60px;
+    line-height: 14px;
+	margin-bottom: 10px;
+	width: 80%;
+}
+
+.erroValidacaoFormulario strong
+{
+	color: #b12828;
+}
+
+.imagemVerdeValidacaoFormulario
+{
+	background: url(../../img/admin_loja/validacao_correto.png) center center no-repeat;
+	float: left;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	width: 60px;
+}
+
+.imagemVermelhoValidacaoFormulario
+{
+	background: url(../../img/admin_loja/validacao_error.png) center center no-repeat;
+	float: left;
+	height: 60px;
+	padding-top: 15px;
+	text-align: center;
+	width: 60px;
+}
+
+.textoValidacaoFormulario
+{
+	height: 60px;
+	float: left;
+    overflow: hidden;
+    max-width: 630px;
+}
+
+.tituloValidacaoFormulario
+{
+	padding-top: 8px;
+}
+
+.descricaoValidacaoFormulario
+{
+	padding-top: 6px;
+}
+
+.boxFormularioGeral
+{
+	
+}
+
+.formatacaoLabel
+{
+	font-weight: 600;
+}
+
+.boxFormularioGeral .linhaFormularioLinear
+{
+	margin-bottom: 10px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .labelFormularioLinear
+{
+	float: left;
+	font-weight: 600;
+	line-height: 12px;
+	padding: 3px 15px 0 0;
+	text-align: right;
+	width: 190px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear
+{
+	float: left;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear input[type="text"]
+{
+	width: 145px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear input[type="text"].inputMoeda
+{
+	width: 115px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear input[type="text"].inputPorcentagem
+{
+	width: 115px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear textarea
+{
+	border: 1px solid #DBDBDB;
+	height: 180px;
+	width: 290px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear .sbHolder
+{
+	width: 145px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear .ui-spinner
+{
+	margin: 0;
+	width: 145px;
+}
+
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear input.inputMenor
+{
+	width: 25px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear input.inputMaior
+{
+	margin-right:3px;
+	width: 113px;
+}
+
+.boxFormularioGeral .linhaFormularioLinear .campoFormularioLinear  input[type="text"].inputGrande
+{
+	width: 305px;
+}
+
+.linhaSeparatoriaFormulario
+{
+	margin: 10px auto;
+	width: 95%;
+}
+
+label.error
+{
+    display:none !important;
+}
+input[type="text"].valid ,input[type="password"].valid
+{
+    border-bottom: 1px solid #7cb128 !important;
+    background-color: '' !important;
+}
+
+input[type="text"].error , input[type="password"].error, ul.tagit.error
+{
+    border-bottom: 1px solid #b12828 !important;
+    background-color: #FFECEC !important;
+}
+
+.error.sbHolder {
+	border-bottom: 1px solid #b12828 !important;
+	background-color: #FFECEC !important;
+}
+
+/* CKEDITOR */
+.boxGeralConteudo .cke_chrome
+{
+	border:1px solid #e5e6e3;
+	box-shadow:none;
+}
+
+.boxGeralConteudo .cke_inner
+{
+	width:468px;
+}
+
+.boxGeralConteudo .cke_toolbar_break
+{
+	display:inline;
+}
+
+.boxGeralConteudo .cke_top
+{
+	background:#f8f9f8;
+	border-bottom:1px solid #e5e6e3;
+	background-image:none;
+}
+
+.boxGeralConteudo .cke_toolgroup
+{
+	border:0;
+	border-radius:0;
+	background:none;
+	box-shadow:none;
+}
+
+.boxGeralConteudo .cke_bottom
+{
+	background:none;
+	border-top:1px solid #e5e5e7;
+	box-shadow:none;
+}
+/* FIM CKEDITOR */
+
+/* BOTOES RODAPE  */
+.rodapeFormulario {
+	width: 100%;
+	background: #f8f9f8;
+	border: 1px solid #e5e6e3;
+	padding: 5px;
+}
+.botoesRodape {
+    float: right;
+}
+
+/* FIM BOTOES RODAPE*/
+
+.campoEstadoPadrao ul.sbOptions li:first-child a
+{
+	padding: 0;
+}
