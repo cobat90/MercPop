@@ -1,0 +1,2984 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+
+.container
+{
+    min-width:965px;
+}
+
+span, p, input[type="text"]
+{
+	font-size:13px;
+}
+
+body
+{
+	background:#f6f6f6;
+    font-size: 13px;
+}
+body.modal-open
+{
+	color:#4a4e44;
+}
+
+br
+{
+	display:block;
+}
+
+ul.tagit {
+	max-width: 305px;
+}
+
+/* desativa click para elementos desativados */
+.ui-state-disabled {
+	pointer-events: none;
+}
+
+
+/* CSS RESET */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+a
+{
+	color: #4a4e44;
+}
+
+
+/* CSS RESET DO BOOTSTRAP */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12
+{
+	padding: 0;
+}
+
+.row
+{
+	margin: 0;
+}
+
+.itensMenu
+{
+	position: inherit;
+    /*height: 730px;*/
+}
+.itensMenu .btSecundarioSuccessFora
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    width:200px;
+    height:30px;
+    padding-left:15px;
+}
+
+/* DEFINE "QUEBRAS DE LAYOUT" DO BOOTSTRAP */
+
+.container
+{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.boxMenu
+{
+	position:relative;
+	width: 100%;
+	z-index: 300;
+    height: 730px;
+    float:none;;
+}
+
+.boxConteudoBlocoPagina
+{
+	background:#fff;
+    border:1px solid #E5E6E3;
+	border-top:none;
+	margin-bottom: 20px;
+    padding: 15px 8px ;
+}
+
+.modal-dialog .boxConteudoBlocoPagina
+{
+    border:none;
+    margin-bottom: 3px;
+
+}
+.divisaoFormsInformacoesGerais
+{
+	background: none repeat scroll 0 0 #E5E6E3;
+    height: 1px;
+    margin: 15px 0;
+    width: 96%;
+}
+
+.botaoMenuMobilecabecalho
+{
+    background: url(../../img/admin_loja/botao_menu_mobile.png) top no-repeat;
+    cursor: pointer;
+    display: none;
+    float: left;
+    height: 32px;
+    margin: 7px 0 0 13px;
+    width: 98px;
+}
+
+.container
+{
+    width: 100%;
+    max-width:1300px;
+}
+
+.itensMenu
+{
+    position: fixed;
+    display:block;
+}
+
+.boxMenu
+{
+    background: #f0f1ee;
+    float: left;
+    /*height: 730px;*/
+    width: 230px;
+}
+.boxConteudo
+{
+    min-width:660px;
+    min-height: 700px;
+}
+.posicionamentoMenu
+{
+    width: 230px;
+}
+@media
+{
+	/*
+	.container
+	{
+		width: 100%;
+		max-width:1300px;
+	}
+	*/
+	.itensMenu
+	{
+		position: fixed;
+	}
+
+	.boxMenu
+	{
+		background: #f0f1ee;
+		float: left;
+		/*height: 730px;*/
+		width: 230px;
+	}
+	.boxConteudo
+	{
+		min-width:660px;
+	}
+	.posicionamentoMenu
+	{
+		width: 230px;
+	}
+
+}
+
+.boxConteudoPagina
+{
+	margin-top:65px;
+}
+.itensMenu
+{
+	background: #f6f6f6;
+	border-right:1px solid #e9e9e9;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.boxGeralConteudo
+{
+	margin-top: 47px;
+}
+
+.boxBarraCabecalho
+{
+	/*margin: 0 auto;*/
+	position: fixed;
+	z-index: 1000;
+}
+.cabecalhoLogotipo
+{
+	float:left;
+	padding-top:5px;
+    cursor:pointer;
+}
+
+/*INÃ�CIO NOTIFICAÃ‡Ã•ES CABEÃ‡ALHO*/
+.divisorBoxNotificacoesCabecalho
+{
+    background: #589631;
+    border-right: 1px solid #87ba4d;
+    float: left;
+    height: 27px;
+    margin: 9px 0 0 14px;
+    width: 1px;
+}
+
+.boxNotificacoesCabecalho
+{
+    background: url("../../img/admin_loja/globo_notificacoes_icon2.png") no-repeat scroll top center;
+    float: left;
+    height: 20px;
+    margin-top: 13px;
+    width: 44px;
+    cursor:pointer;
+    background-position: top;
+}
+
+
+
+.contadorNotificacoesCabecalho
+{
+    background: #cd0010;
+    box-shadow: 1px 1px 1px #547C2D;
+    cursor: pointer;
+    float: left;
+    height: 13px;
+    margin: -7px 0 0 23px;
+    width: 17px;
+    display:none;
+}
+
+.contadorNotificacoesCabecalho p
+{
+    color: #fff;
+    font-size: 12px;
+    height: 13px;
+    margin: -2px 0 0 0;
+    text-align: center;
+}
+
+
+/*FIM NOTIFICAÃ‡Ã•ES CABEÃ‡ALHO*/
+
+.cabecalhoBotaoOpcoes
+{
+	float:right;
+}
+.divisorBotaoOpcoes
+{
+	background:#5c9616;
+	border-left:1px solid #8aba37;
+	float:right;
+	height:27px;
+	margin-top:10px;
+	width:1px;
+}
+
+.botaoVisitarLojaOpcoes
+{
+    cursor: pointer;
+    float: right;
+    padding: 11px 20px 4px;
+}
+
+.botaoVisitarLojaOpcoes p
+{
+    color: #f2f6ed;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.cabecalhoAjuda
+{
+	float:right;
+}
+.cabecalhoAjuda a
+{
+	background: url(../../img/admin_loja/ajuda_icon.png) top no-repeat;
+	display:block;
+	height:18px;
+	margin: 12px;
+	width:18px;
+}
+.cabecalhoAjuda a:hover
+{
+	background-position:bottom
+}
+
+/*DROPDOWN CABEÃ‡ALHO*/
+.cabecalhoOpcoesPessoais
+{
+    display: inline-block;
+    float: right;
+    height: 34px;
+    margin-right: 15px;
+    margin-top: 6px;
+    min-width: 88px;
+    overflow: hidden;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.cabecalhoOpcoesPessoais span
+{
+    font-size: 13px;
+}
+
+
+.cabecalhoOpcoesPessoais:hover
+{
+	overflow:visible;
+	position:relative;
+	z-index:999933;
+}
+.cabecalhoOpcoesPessoais span
+{
+	color:#f2f6ed;
+    cursor: pointer;
+    height:35px;
+	position: relative;
+    z-index: 9999;
+}
+
+.cabecalhoOpcoesPessoais:hover span
+{
+    text-decoration: underline;
+}
+
+.nomeCabecalhoOpcoesPessoais
+{
+	/*background: url(../../img/admin_loja/seta_icon_invertido_menu_conta.png) center right no-repeat;*/
+	background: url(../../img/admin_loja/seta_icon_menu_conta.png) center right no-repeat;
+    display: block;
+    height: 28px;
+    padding-left:5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.nomeCabecalhoOpcoesPessoaisAberto
+{
+	/*background: url(../../img/admin_loja/seta_icon_menu_conta.png) center right no-repeat;*/
+	background: url(../../img/admin_loja/seta_icon_invertido_menu_conta.png) center right no-repeat;
+}
+
+.boxMenuOpcoesPessoais
+{
+    display: none;
+    height: 160px;
+    margin: 0;
+    position: absolute;
+    right: 195px;
+    top: 42px;
+    width: 185px;
+}
+
+.englobaLinkOpcoesPessoais
+{
+	background: none repeat scroll 0 0 #ffffff;
+    border-left: 1px solid #E5E7E4;
+    border-right: 1px solid #E5E7E4;
+    border-top: 1px solid #E5E7E4;
+	display: block;
+    float: right;
+    font-size: 11px;
+    height: 40px;
+    margin-right: -7px;
+    margin-top: -1px;
+    padding: 12px 0;
+    width: 185px;
+}
+
+.englobaLinkOpcoesPessoais:hover
+{
+    background: #7A7E77;
+    border: 1px solid #ccc;
+}
+
+.englobaLinkOpcoesPessoais:hover span
+{
+    color: #e5e6e3;
+}
+
+.minhaLoja:hover .iconeMinhaLojaLinkOpcoesPessoais
+{
+    background-position: bottom;
+}
+
+.dadosCadastrais:hover .iconeDadosCadastraisOpcoesPessoais
+{
+    background-position: bottom;
+}
+
+.pagamentosServicos:hover .iconePagamentosServicosLinkOpcoesPessoais
+{
+    background-position: bottom;
+}
+
+.sairMenu:hover .iconeSairLinkOpcoesPessoais
+{
+    background-position: bottom;
+}
+
+.iconeDadosCadastraisOpcoesPessoais
+{
+    background: url(../../img/admin_loja/icon_minhasinformacoes.png) top center no-repeat;
+    float: left;
+    height: 17px;
+    margin: -2px 0 0 10px;
+    width: 19px;
+}
+
+.iconePagamentosServicosLinkOpcoesPessoais
+{
+    background: url(../../img/admin_loja/icon_pagamentos.png) top center no-repeat;
+    float: left;
+    height: 17px;
+    margin: -1px 0 0 10px;
+    width: 19px;
+}
+
+.iconeSairLinkOpcoesPessoais
+{
+    background: url(../../img/admin_loja/icon_sair.png) top center no-repeat;
+    float: left;
+    height: 17px;
+    margin: -1px 0 0 10px;
+    width: 19px;
+}
+
+.iconeAtualizacaoOpcoesPessoais
+{
+    background: url(../../img/admin_loja/icone_atualizacao_adm_notificacao.png) top center no-repeat;
+    float: left;
+    height: 24px;
+    margin: -7px 0 0 10px;
+    width: 25px;
+}
+
+
+
+.englobaLinkOpcoesPessoais img
+{
+	float:left;
+	margin-left: 6px;
+}
+.englobaLinkOpcoesPessoais span
+{
+	color: #7A7E77;
+    float: left;
+    margin: -2px 0 0 7px;
+}
+.englobaLinkOpcoesPessoais:first-child
+{
+	border-top:none;
+}
+.englobaLinkOpcoesPessoais:last-child
+{
+	border-bottom: 1px solid #E5E7E4;
+}
+/*FIM DROPDOWN*/
+
+/*Inicio Aumente seu plano*/
+.aumentePlanoBotaoOpcoes
+{
+    display: block;
+    float: right;
+    margin: 10px;
+}
+
+.aumentePlanoBotaoOpcoes span
+{
+    color: #f2f6ed;
+    float: left;
+    font-size: 13px;
+    margin: 2px;
+    text-decoration: underline;
+}
+
+.aumentePlanoBotaoOpcoes img
+{
+    float: left;
+}
+/*Fim Aumente seu plano*/
+
+
+.barraCabecalho
+{
+	background: #7cb128;
+	display:block;
+	height: 47px;
+	width: 100%;
+}
+
+.itensMenu img
+{
+
+	height: 15px;
+	margin-right: 10px;
+	width: 15px;
+}
+
+.cabecalhoLogotipo img
+{
+	/*height: 20px;*/
+	margin: 6px 0 0 23px;
+}
+
+.boxConteudo
+{
+	background:#f6f6f6;
+	color:#4a4e44;
+	padding: 0 0 0 12px;
+}
+
+.boxConteudoMenor
+{
+	float: left;
+	padding: 0 0 0 12px;
+}
+
+.boxConteudoMaior
+{
+	float: left;
+	padding: 0 0 0 12px;
+}
+
+/*INÃ�CIO PASSO A PASSO TOPO*/
+.boxPassosCabecalho
+{
+	background: none repeat scroll 0 0 #7CB128;
+	display:none;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 2000;
+}
+
+.boxConteudoCentralizadoPassosCabecalho
+{
+	margin:0 auto;
+	width:966px;
+}
+
+.boxImagemTituloPassosCabecalho
+{
+	background: url(../../img/admin_loja/mascote_tela_passoapasso.png) center left no-repeat;
+	float:left;
+	height:70px;
+	width:190px;
+}
+
+.boxImagemTituloPassosCabecalho span
+{
+	color:#fff;
+}
+
+.boxImagemTituloPassosCabecalho span:first-child
+{
+    float: left;
+    font-size: 28px;
+    margin-left: 93px;
+    margin-top: 5px;
+}
+
+.boxImagemTituloPassosCabecalho span:nth-child(2)
+{
+    float: right;
+    font-size: 23px;
+    margin: 15px 8px 0 0;
+    padding-top: 0;
+}
+
+.boxImagemTituloPassosCabecalho span:nth-child(3)
+{
+    float: right;
+    font-size: 23px;
+    height: 17px;
+    margin-right: -10px;
+    margin-top: -16px;
+}
+
+.divisorConteudoPassosCabecalho
+{
+	background:#56a731;
+	border-right:1px solid #a1cb65;
+	float:left;
+	margin-top:14px;
+	height:43px;
+}
+
+.boxConteudoPassosCabecalho
+{
+	float:left;
+	height:50px;
+	width:610px;
+}
+
+.boxProgressoPassosCabecalho
+{
+    display: block;
+    float: left;
+    height: 43px;
+    margin: 15px 6px;
+    padding-top: 6px;
+}
+
+.boxProgressoPassosCabecalho p:hover
+{
+	text-decoration:underline;
+}
+
+.boxProgressoPassosCabecalho:hover p
+{
+
+	text-decoration:underline;
+}
+
+.boxProgressoPassosCabecalho:hover .numeroProgressoPassosCabecalho p
+{
+	text-decoration:none;
+}
+
+.textoBoxProgressoPassosCabecalho
+{
+	color: #fff;
+    float: left;
+    font-size: 15px;
+    margin: 2px 0 0 9px;
+}
+
+/*INÃ�CIO Estados do texto*/
+.textoAtualBoxProgressoPassosCabecalho
+{
+    font-weight: 600;
+}
+
+p.textoConcluidoBoxProgressoPassosCabecalho
+{
+	color:#3D681B;
+}
+/*FIM Estados do texto*/
+
+.numeroProgressoPassosCabecalho
+{
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    float: left;
+    height: 30px;
+    text-align: center;
+	text-decoration:none;
+    width: 30px;
+}
+
+div.numeroProgressoPassosCabecalho p:hover
+{
+	text-decoration:none;
+}
+
+.numeroProgressoPassosCabecalho p
+{
+	font-size: 20px;
+	margin-top:-2px;
+}
+
+/*INÃ�CIO Estados do texto*/
+.numeroAtualProgressoPassosCabecalho
+{
+	background:#fff;
+	color:#78b142;
+}
+
+.numeroConcluidoProgressoPassosCabecalho
+{
+	background: url(../../img/admin_loja/icone_checking_tela_passoapasso.png) center center no-repeat;
+	border:none;
+	color:transparent;
+}
+
+.numeroConcluidoAtualProgressoPassosCabecalho
+{
+	background: url(../../img/admin_loja/check_concluido_atual.png) center center no-repeat;
+	border:none;
+	color:transparent;
+}
+/*FIM Estados do texto*/
+
+.boxSairPassosCabecalho
+{
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin-top: 15px;
+    width: 155px;
+}
+
+.boxSairPassosCabecalho:hover
+{
+    text-decoration: underline;
+}
+
+
+.botaoSairPassosCabecalho
+{
+	background:#b3222a;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    font-size: 19px;
+    font-weight: 600;
+    height: 30px;
+    margin: 5px 0 0 15px;
+    text-align: center;
+    width: 30px;
+}
+
+.boxSairPassosCabecalho p
+{
+	 color: #FFFFFF;
+    display: block;
+    line-height: 15px;
+    margin: 4px 0 0 52px;
+}
+
+.boxSetaIndicacaoPassos
+{
+	background: url(../../img/admin_loja/seta_tela_tutorial.png) center center no-repeat;
+	height:25px;
+	margin: 65px auto;
+	width:49px;
+	display:none;
+}
+
+/*FIM PASSO A PASSO TOPO*/
+
+
+/*DROPDOWN MENU LATERAL*/
+.botaoSemDropDownMenuPrincipal
+{
+	border-top: none;
+	border-left : none;
+	border-right: none;
+	border-bottom: 1px solid #e9e9e9;
+	font-size: 15px;
+	height: 40px;
+	overflow:hidden;
+	text-align: left;
+	width:230px;
+}
+
+div.botaoSemDropDownMenuPrincipal:hover
+{
+	background:#7a7e77;
+	border-top:1px solid #9b9e99;
+	overflow:visible;
+	transition:overflow 1s ease-out;
+}
+
+div.botaoSemDropDownMenuPrincipal:hover a
+{
+	background-position:bottom left;
+	color:#ffffff;
+}
+
+.botaoComDropDownMenuPrincipal
+{
+	z-index:999933;
+	background: url(../../img/admin_loja/setas_menu_principal.png) top right no-repeat;
+	border-top: none;
+	border-left : none;
+	border-right: none;
+	border-bottom: 1px solid #e9e9e9;
+	border-radius: 0px;
+    cursor:default;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	font-size: 15px;
+	height: 40px;
+	overflow:hidden;
+	position:relative;
+	text-align: left;
+	width:230px;
+	transition:overflow step-end 2s;
+}
+
+div.botaoComDropDownMenuPrincipal:hover
+{
+	background: url(../../img/admin_loja/setas_menu_principal.png) bottom right no-repeat #7a7e77;
+	border-top:1px solid #9b9e99;
+	overflow:visible;
+	transition:overflow 1s ease-out;
+}
+
+div.botaoComDropDownMenuPrincipal:hover span, div.botaoComDropDownMenuPrincipal:hover a
+{
+	color:#ffffff;
+}
+
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoMenuPrincipal
+{
+
+}
+
+.botaoComDropDownMenuPrincipal:last-child
+{
+    border-top: 1px solid #9b9e99;
+}
+
+.linkBotaoMenuPrincipal
+{
+	color: #4A4A4A;
+    display: block;
+    height: 40px;
+    margin-left: 10px;
+    padding-left: 40px;
+    padding-top: 9px;
+    text-align: center;
+    text-decoration: none;
+    width: 220px;
+}
+
+.linkBotaoMenuPrincipal img
+{
+	float:left;
+	margin-left:20px;
+	margin-top: 3px;
+}
+
+.linkBotaoMenuPrincipal span
+{
+	float:left;
+}
+
+.subBotaoMenuPrincipal
+{
+    background: none repeat scroll 0 0 #DDDDDD;
+	border-top:1px solid #9b9e99;
+	cursor:pointer;
+    height: 39px;
+    margin-left:230px;
+    margin-top: 0;
+    position: relative;
+    top: -41px;
+    width: 175px;
+    z-index: 0;
+}
+
+.subBotaoMenuPrincipal:hover
+{
+	border-top: 1px solid #61655f;
+}
+
+.subBotaoMenuPrincipal a
+{
+	background:#7A7E77;
+	border-right:1px solid #7a7e77;
+	color:#9a9b99;
+	display:block;
+	height: 38px;
+    padding: 10px 0 0 5px;
+}
+
+div.subBotaoMenuPrincipal a:hover
+{
+	background:#4f524c;
+	border-bottom:1px solid #6f736d;
+	border-right:1px solid #41443f;
+	border-top:1px solid #41443f;
+	color:#fff;
+	text-decoration:none;
+}
+
+.botaoSemDropDownMenuPrincipal
+{
+	background:none;
+}
+
+div.botaoSemDropDownMenuPrincipal:hover
+{
+	background:#7A7E77;
+}
+
+/*Clientes*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoClientesMenuPrincipal
+{
+	background: url(../../img/admin_loja/clientes_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoClientesMenuPrincipal
+{
+	background: url(../../img/admin_loja/clientes_menu_principal.png) top left no-repeat;
+}
+
+/*Produtos*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoProdutosMenuPrincipal
+{
+	background: url(../../img/admin_loja/produtos_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoProdutosMenuPrincipal
+{
+	background: url(../../img/admin_loja/produtos_menu_principal.png) top left no-repeat;
+}
+
+.textoOpcional
+{
+    color: #A5A5A5;
+    font-size: 12px;
+    height: 0;
+    text-align: right;
+}
+
+/*Pedidos*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoPedidosMenuPrincipal
+{
+	background: url(../../img/admin_loja/pedidos_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoPedidosMenuPrincipal
+{
+	background: url(../../img/admin_loja/pedidos_menu_principal.png) top left no-repeat;
+}
+
+/*Pedidos*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoLayoutMenuPrincipal
+{
+	background: url(../../img/admin_loja/layout_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoLayoutMenuPrincipal
+{
+	background: url(../../img/admin_loja/layout_menu_principal.png) top left no-repeat;
+}
+
+
+/*Financeiro*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoFinanceiroMenuPrincipal
+{
+	background: url(../../img/admin_loja/financeiro_menu_principal.png) bottom left no-repeat;
+}
+
+
+
+.linkBotaoFinanceiroMenuPrincipal
+{
+	background: url(../../img/admin_loja/financeiro_menu_principal.png) top left no-repeat;
+}
+
+/*ConfiguraÃ§Ãµes*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoConfiguracoesMenuPrincipal
+{
+	background: url(../../img/admin_loja/configuracao_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoConfiguracoesMenuPrincipal
+{
+	background: url(../../img/admin_loja/configuracao_menu_principal.png) top left no-repeat;
+}
+
+/*Marketing*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoMarketingMenuPrincipal
+{
+	background: url(../../img/admin_loja/marketing_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoMarketingMenuPrincipal
+{
+	background: url(../../img/admin_loja/marketing_menu_principal.png) top left no-repeat;
+}
+
+/*AvanÃ§ado*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoAvancadoMenuPrincipal
+{
+	background: url(../../img/admin_loja/avancado_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoAvancadoMenuPrincipal
+{
+	background: url(../../img/admin_loja/avancado_menu_principal.png) top left no-repeat;
+}
+
+/*Minha Conta*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoMinhaContaMenuPrincipal
+{
+	background: url(../../img/admin_loja/minha_conta_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoMinhaContaMenuPrincipal
+{
+	background: url(../../img/admin_loja/minha_conta_menu_principal.png) top left no-repeat;
+}
+
+/*Agenda*/
+div.botaoComDropDownMenuPrincipal:hover .linkBotaoAgendaMenuPrincipal
+{
+	background: url(../../img/admin_loja/agenda_menu_principal.png) bottom left no-repeat;
+}
+
+.linkBotaoAgendaMenuPrincipal
+{
+	background: url(../../img/admin_loja/agenda_menu_principal.png) top left no-repeat;
+}
+
+
+
+/*FIM DROPDOWN MENU LATERAL*/
+
+/*INICIO BOTÃƒO ATIVAR LOJA*/
+
+.botaoAtivarLojaMenuPrincipal
+{
+    background: url("../../img/admin_loja/botao_ativar_loja_menu_principal_menor.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #e9e9e9;
+    cursor: pointer;
+    height: 46px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.botaoAtivarLojaMenuPrincipal:hover
+{
+    background-position: bottom;
+}
+
+.vantagensBotaoAtivarLoja.botaoAtivarLojaMenuPrincipal {
+    background-position: left top;
+    border-bottom: 0 none;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.vantagensBotaoAtivarLoja.botaoAtivarLojaMenuPrincipal:hover {
+    background-position: left bottom;
+}
+
+.btPagarMensalidadeMenuPrincipal
+{
+    cursor: pointer;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px 0 0 20px;
+    width: 170px;
+}
+.btPagarMensalidadeMenuPrincipal .btSecundarioFora
+{
+    height:40px;
+    width: 185px;
+}
+.btPagarMensalidadeMenuPrincipal .btSecundarioMeio
+ {
+     height:40px;
+     width: 185px;
+ }
+.btPagarMensalidadeMenuPrincipal .btSecundarioDentro
+{
+    background: url('../../img/admin_loja/efetuar_pagamento_icon_btn.png') no-repeat 2% 72%;
+    font-size: 14px !important;
+    height:35px;
+    padding: 8px 0 0 41px;
+
+}
+.botaoPagarLojaMenuPrincipal
+{
+
+    height: 70px;
+    width: 190px !important;
+    margin-left:17px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+
+.botaoSemDropDownMenuPrincipal .btSecundarioSuccessMeio
+{
+    background: url(../../img/admin_loja/botao_ativar_loja_menu_principal.png) top center no-repeat;
+
+    padding: 0;
+    width: 100%;
+}
+
+.botaoSemDropDownMenuPrincipal .btSecundarioSuccessMeio:hover
+{
+    background-position: bottom;
+}
+
+.botaoSemDropDownMenuPrincipal .btSecundarioMeio
+{
+    height: 40px;
+}
+
+.botaoSemDropDownMenuPrincipal .btSecundarioDentro
+{
+    font-size: 15px;
+}
+/*FIM BOTÃƒO ATIVAR LOJA*/
+
+.menuLateral
+{
+	float: left;
+	width: 90px;
+	position:relative;
+	z-index:1;
+
+}
+
+.boxNavegacaoLateral
+{
+	background: none repeat scroll 0 0 #f6f6f6;
+	float: left;
+    padding-left: 4px;
+    /*padding-top: 65px;*/
+    position: fixed;
+    width: 100px;
+}
+
+.itemNavegacaoLateral
+{
+	/*height: 80px;*/
+	height: 47px;
+    width: 100%;
+}
+
+.tituloItemNavegacaoLateral
+{
+	color: #7A7E77;
+    display: table-cell;
+    height: 48px;
+	padding-left:6px;
+    text-align: left;
+    vertical-align: middle;
+    width: 78px;
+}
+
+.tituloItemNavegacaoLateral a
+{
+	color: #828882;
+    display: table-cell;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.tituloItemNavegacaoLateral .tituloItemNavegacaoSelecionado
+{
+	color: #7cb128;
+	display: table-cell;
+	font-weight:bold;
+    vertical-align: middle;
+}
+
+
+.tituloItemNavegacaoLateral a:hover
+{
+	color: #7a7e77;
+}
+
+.checkItemNavegacaoLateral
+{
+	display: table-cell;
+    height: 48px;
+    vertical-align: middle;
+    width: 4px;
+}
+
+.checkInternoItemNavegacaoLateral
+{
+	background: none repeat scroll 0 0 #E5E6E3;
+    border: 2px solid #E5E6E3;
+    display: table-cell;
+    height: 38px;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 4px;
+}
+
+.marcarCheckInternoItemNavegacaoLateral
+
+{
+
+}
+
+.marcarCheckInternoItemNavegacaoLateralSelecionado
+{
+	background: none repeat scroll 0 0 #7CB128;
+    height: 38px;
+    margin: -2px;
+    width: 4px;
+}
+
+.linhaItemNavegacaoLateral
+{
+	background: #7CB128;
+	height: 26px;
+	margin: 0 auto;
+	width: 1px;
+}
+
+.boxMaisAcessados
+{
+	height: 35px;
+	margin: 12px 0 12px 8px;
+	width: 168px;
+}
+
+.botaoLinkMenu
+{
+	background: transparent;
+	border-top: none;
+	border-left : none;
+	border-right: none;
+	border-bottom: 1px solid #CCC;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+
+	font-size: 15px;
+	height: 40px;
+	margin: 0 !important;
+	text-align: left;
+	width: 100%;
+}
+
+div.botaoLinkMenu:hover
+{
+	background: #7a7e77;
+	color: #f3f3f3;
+	cursor: pointer;
+}
+
+.textBotaoLinkMenu
+{
+	float: left;
+	height: 40px;
+	color: #4A4A4A;
+	padding: 10px 0 0 20px;
+	vertical-align: middle;
+	width: 90%;
+}
+
+.setaBotaoLinkMenu
+{
+	float: left;
+	height: 40px;
+	width: 10%;
+}
+
+.separaBotoesMenu
+{
+	margin-top: 50px !important;
+}
+
+.boxNovasInfosMenu
+{
+	height: 134px;
+	margin: 10px auto;
+	overflow-y: auto;
+
+	padding: 0px 0;
+	width: 210px;
+}
+
+.boxSetaNavegacao
+{
+	height: 27px;
+	text-align: center;
+	width: 100%;
+}
+
+.boxNovaInfoMenu
+{
+
+}
+
+.conteudoNovaInfoMenu
+{
+
+	color: #606060;
+
+	margin: 10px 0 10px 15px;
+}
+
+.tituloConteudoNovaInfoMenu
+{
+	border-right: 1px solid #f0ecef;
+	color: #5e0269;
+	float: left;
+	font-size: 14px;
+	font-weight: 600;
+	text-align: center;
+
+	vertical-align: middle;
+	width: 60px;
+}
+
+
+
+.textoConteudoNovaInfoMenu
+{
+	float: left;
+	font-size: 13px;
+	padding-left: 10px;
+	width: 140px;
+}
+
+.boxAgenda
+{
+	margin: 0 auto;
+	width: 210px;
+}
+
+.boxTituloAgenda
+{
+	width: 100%;
+}
+
+.dataHojeAgenda
+{
+    float: left;
+    margin-right: 2px;
+    text-align: center;
+    width: 31px;
+}
+
+.dataHojeAgenda p
+{
+	font-size: 19px;
+	margin: 0 0 -4px 0;
+	padding: 0;
+}
+
+.dataHojeAgenda span
+
+
+{
+
+	font-size: 11px;
+	text-transform: lowercase;
+}
+
+/* CSS AGENDA LATERAL */
+.tituloAgenda
+
+{
+	font-size: 13px;
+	float: left;
+	padding: 3px 0 0 0;
+	width: 130px;
+    text-decoration: underline;
+    cursor:pointer;
+    font-weight: 600;
+}
+
+.numeroItensAgenda
+{
+	background: #7cb128;
+	border: 1px solid #406800;
+	color: #FFF;
+	float: left;
+	height: 25px;
+    margin-left: -5px;
+	padding-top: 1px;
+	text-align: center;
+	width: 25px;
+}
+
+.navegacaoAgenda
+{
+	height: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.boxItemAgenda
+{
+	border-bottom: 1px solid #E5E7E1;
+	padding: 9px 0;
+	width: 100%;
+}
+
+
+.iconeItemAgenda
+{
+	display: table-cell;
+	height: 25px;
+	margin-left: 5px;
+    vertical-align:middle;
+	width: 25px;
+}
+
+.textoItemAgenda
+{
+	border-left: 1px solid #F0ECEF;
+    display: table-cell;
+	font-size: 12px;
+	line-height: 14px;
+    vertical-align: middle;
+	width: 140px;
+}
+
+.setaItemAgenda
+{
+	display: table-cell;
+	height: 14px;
+    vertical-align: middle;
+	width: 14px;
+}
+
+.itensMenu img
+{
+    display: block;
+}
+
+
+.tituloNovaInfoMenu
+{
+	background: #e1d9e0;
+	color: #5e0269;
+	font-weight: 600;
+	height: 22px;
+
+	margin: 0 auto;
+	padding: 2px 0 0 0;
+	width: 95%;
+}
+
+/*INÃ�CIO NIVEL RECURSOS*/
+/*.posicionaBoxNivelMenu
+{
+    position: absolute;
+}*/
+
+.englobaboxNivelRecursos
+{
+
+}
+
+.boxNivelMenu
+{
+	background: #7a7e77;
+    border: 1px solid #C5C5C5;
+    bottom: 0;
+    clear: both;
+    height: 98px;
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.boxNivelMenu:hover
+{
+    overflow: visible;
+}
+
+.boxNivelMenu img
+{
+    float: left;
+    height: 15px;
+    margin: 5px 8px 0 8px;
+    width: 17px;
+}
+
+div.boxNivelMenu h4
+{
+    color: #E6E6E6;
+    font-weight: 600;
+    float: left;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+
+div.boxNivelMenu p
+{
+    color: #E6E6E6;
+    display: block;
+    font-size: 13px;
+    line-height: 14px;
+    margin-bottom: 5px;
+    margin-left: 8px;
+    margin-top: 3px;
+    width: 210px;
+}
+
+div.boxNivelMenu h5
+{
+    color: #c6c8c5;
+    display: table-cell;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 6px 0 0 7px;
+    max-width: 115px;
+    vertical-align: middle;
+}
+
+.englobaNivelRecurso
+{
+    display: table-cell;
+    height: 40px;
+    padding-left:4px;
+    vertical-align: middle;
+}
+
+.nivelRecursoBasico
+{
+    background: #3d3f3b;
+    border-bottom: 1px solid #585957;
+    float: left;
+    height: 8px;
+    margin-left: 8px;
+    margin-top: 16px;
+    width: 17px;
+}
+
+.nivelRecursoMedio
+{
+    background: #3d3f3b;
+    border-bottom: 1px solid #585957;
+    float: left;
+    height: 15px;
+    margin-left: 2px;
+    margin-top: 9px;
+    width: 17px;
+}
+
+.nivelRecursoAvancado
+{
+    background: #3d3f3b;
+    border-bottom: 1px solid #585957;
+    float: left;
+    height: 23px;
+    margin-left: 2px;
+    margin-top: 1px;
+    width: 17px;
+}
+
+.nivelRecursoSelecionado
+{
+    background: #78b142;
+    border-top:1px solid #1c3e0e;
+}
+
+.englobaBotaoEditar
+{
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.botaoEditarNivelRecurso
+{
+    background: url(../../img/admin_loja/botao_controle_editar_pedido.png) top center repeat-y;
+    height: 25px;
+    margin: 1px 0 0 8px;
+    width: 25px;
+}
+
+.botaoEditarNivelRecurso:hover
+{
+    background-position: bottom;
+}
+
+.boxNivelRecursos
+{
+    background: #fff;
+    border: 1px solid #E6E6E6;
+    bottom: 0;
+    display: block;
+    height: 510px;
+    margin: 0 auto;
+    width: 470px;
+}
+
+.tituloExplicacaoNivelRecursos
+{
+    height: 83px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 9px 0;
+    text-align: center;
+    width: 430px;
+}
+
+.tituloExplicacaoNivelRecursos p
+{
+    font-size: 13px;
+    text-align: center;
+}
+
+.divisorTitulosNivelRecursos
+{
+    background: #9e9f9d;
+    height: 1px;
+    margin: 4px auto ;
+    width: 360px;
+}
+
+.tituloBoxNivelRecursos
+{
+    padding-left: 20px;
+}
+
+div.tituloBoxNivelRecursos p
+{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.conteudoBoxNivelRecursos
+{
+    height: 230px;
+    width: 100%;
+}
+
+.boxBarraProgressoConteudoNivelRecursos
+{
+    background: url(../../img/admin_loja/efeito_background_barra_progresso_recurso.png) center center no-repeat;
+    display: inline-block;
+    float: left;
+    height: 330px;
+    margin-left: 45px;
+    margin-top: 18px;
+    width: 20px;
+}
+
+.boxBarraProgressoConteudoNivelRecursos div:first-child
+{
+    height: 322px;
+    margin: 1px auto;
+    width: 4px;
+}
+
+.boxBarraProgressoConteudoNivelRecursos div:first-child div
+{
+    background: none repeat scroll 0 0 #78B142;
+    bottom: -1px;
+    margin-left: -1px;
+    width: 6px;
+}
+
+div.conteudoBoxNivelRecursos div.boxBarraProgressoConteudoNivelRecursos a
+{
+    cursor: pointer;
+    height: 16px;
+    margin-bottom: -8px;
+    margin-left: -6px;
+    width: 28px;
+}
+
+.selecaoProgressoConteudoNivelRecursos
+{
+    background: #78b142;
+    bottom: 10px;
+    height: 25%;
+    max-height: 83%;
+    position: absolute;
+    width: 3px;
+}
+
+.botaoSelecaoProgressoConteudo
+{
+    background: #f8f9f8;
+    border-bottom: 1px solid #caccc9;;
+    border-left: 1px solid #f3f4f3 ;
+    border-right: 1px solid #caccc9;
+    border-top: 1px solid #e8eae8;
+    cursor: pointer;
+    height: 7px;
+    margin-left: -6px;
+    position: relative;
+    width: 14px;
+}
+
+.descricaoProgressoConteudoNivelRecursos
+{
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    width: 420px;
+
+}
+
+.boxDescricaoNivelRecursos
+{
+    background: url("../../img/admin_loja/check_recurso_sem_selecao.png") no-repeat scroll 4px center;
+    cursor: pointer;
+    display: table;
+    min-height: 110px;
+    padding-left: 70px;
+}
+
+.boxDescricaoNivelRecursos span
+{
+    display: table-cell;
+    margin: 11px 0;
+    vertical-align: middle;
+}
+
+.boxDescricaoNivelRecursos:hover
+{
+    background: url(../../img/admin_loja/check_recurso_hover.png) no-repeat scroll 4px center;
+}
+
+div.descricaoProgressoConteudoNivelRecursos div.textoSelecionadoDescricao
+{
+    background: url(../../img/admin_loja/check_recurso_selecao.png) no-repeat scroll 4px center;
+}
+
+.textoSelecionadoDescricao span
+{
+    color:#333333 !important;
+    font-weight: 600;
+}
+
+.textoDescricaoProgressoConteudoNivelRecursos
+{
+    float: left;
+    font-size: 13px;
+    margin: 24px 0;
+    color:#999999;
+}
+
+.descricaoProgressoConteudoNivelRecursos span:first-child
+{
+
+}
+
+.descricaoProgressoConteudoNivelRecursos span:last-child
+{
+
+}
+
+.separadorConteudoBotoesRecursos
+{
+    background: #d8d9d8;
+    height: 1px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+/*Botoes*/
+
+.englobaBotoesNivelRecursos
+{
+    height: 55px;
+    width: 100%;
+}
+
+.englobaBotoesNivelRecursos .btSecundarioFora
+{
+    cursor: pointer;
+    float: right;
+    height: 30px;
+    margin: 12px;
+    width: 115px;
+}
+
+.englobaBotoesNivelRecursos .btSecundarioDentro
+{
+    font-size: 12px;
+    padding: 3px;
+    text-align: center;
+
+}
+
+.conteudoBoxNivelRecursos .btnFechar
+{
+    color: #78B142;
+    cursor: pointer;
+    float: right;
+    margin: 12px -8px 0 0;
+    padding: 5px 20px;
+}
+/*Fim BotÃµes*/
+
+.setaNivelRecursos
+{
+    background: url(../../img/admin_loja/seta_nivel_recurso.png) center center no-repeat;
+    bottom: -40px;
+    height: 142px;
+    left: 249px;
+    position: relative;
+    width: 400px;
+    z-index: 9999;
+}
+
+/*FIM NÃ�VEL RECURSOS*/
+.boxInfoMenu
+{
+	background: color #FFF;
+	border: 1px solid #000;
+	height: 70px;
+	width: 100%;
+}
+
+/* REGRAS GERAIS DE FORMULARIO */
+input[type="text"]
+{
+	border: 1px solid #e1e1e1;
+	height: 30px;
+}
+
+select
+{
+	background: #f7f8f6;
+	border: 1px solid #e5e6e3;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	font-size: 14px;
+	height: 35px;
+	margin: 0;
+	outline: none;
+	width: 168px;
+}
+
+
+/* REGRAS GERAIS DE ESTRUTURA DAS PAGINAS */
+.listagem_default
+{
+	/*margin-top:65px;*/
+	background:#fff;
+}
+.timelineDesabilitada
+{
+    width: 0px;
+}
+.boxConteudoPagina
+{
+	background: transparent;
+ 	width: 100%;
+    min-width: 760px;
+}
+.boxPagina
+{
+	background:#f6f6f6;
+	border-top: 0 none;
+	color: #7a7e77;
+    /*margin-top:65px;*/
+	min-width:660px;
+
+    float:left;
+    position: relative;
+}
+.boxPaginaModal
+{
+	 /*background: #CCC;*/
+	 padding: 20px;
+	 margin: 75px 0 20px 220px;
+	 width: 1000px;
+}
+
+.tituloPrincipal
+{
+	background: #F0F1EE;
+	border:1px solid #E5E6E3;
+
+	color: #7a7e77;
+	font-weight: 600;
+	font-size:15px;
+
+	height: 38px;
+	padding: 6px 0 0 15px;
+	width: 100%;
+}
+
+div.tituloPrincipal + div.subTitulo
+
+{
+	border-top:none;
+}
+
+.subTitulo
+{
+	background: #f8f9f8;/*#F8F9F8;*/
+	border:1px solid #E5E6E3;
+	height: 38px;
+	padding: 8px 0 0 8px;
+    position: relative;
+	width: 100%;
+}
+.subTitulo, .subTitulo div
+{
+    font-weight: 600;
+    font-size:14px;
+    color: #7a7e77;
+}
+.subTituloSelecionado
+{
+	border: 0 none;
+    border-bottom: 1px solid #E5E7E4;
+    background-color:#F0F1EE;
+    color:#7cb12b;
+    font-weight: 600;
+    padding: 10px 0 0 15px;
+
+    height: 38px;
+
+}
+
+
+/* BotÃ£o salvar flutuante */
+.btnSaveFlutuante {
+    width: 118px;
+    height: 30px;
+    border: 1px solid #406800;
+    background: #7cb128;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+    right: 0px;
+    bottom: 10px;
+}
+
+.btnSaveFlutuante span {
+    font: 26px Myriad;
+}
+
+.uploadBar {
+    height: 18px;
+    background: green;
+}
+
+/* REGRAS GERAIS */
+*
+{
+	font-family: 'Open Sans', sans-serif;
+    /*letter-spacing: -0.5px;*/
+}
+
+label
+{
+    font-weight: 600;
+}
+
+input[type="text"], input[type="password"],.sbHolder {
+	border: 1px solid #DBDBDB;
+	color: #4a4e4e;
+	height: 30px;
+	font-size:13px !important;
+    outline: none !important;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 0 0 0 5px;
+}
+
+.sbHolder a
+{
+	color: #4a4e4e;
+	font-size:13px !important;
+}
+
+
+.menuBreadCrumb
+{
+	background: url("../../img/admin_loja/divisor_menor.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    color: #7CB128;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: -7px;
+    min-width: 110px;
+    padding: 0 16px 0 15px;
+}
+
+.menuBreadCrumb a
+{
+	color: #7CB128;
+	text-decoration:underline;
+}
+
+.breadCrumbLinkValido:hover
+{
+	color: #7cb128;
+	cursor: pointer;
+}
+
+.conteudoBreadCrumbs
+{
+	height:40px;
+}
+
+.conteudoBreadCrumbs .btPrincipalFora
+{
+	display:inline-block;
+	float: right;
+	margin-top: 2px;
+	max-width: 220px;
+	min-width: 180px;
+	text-align: center;
+}
+.conteudoBreadCrumbs .btSecundarioFora
+{
+    float: right;
+    height: 31px;
+    margin: 2px 2px 0 0;
+    width: 180px;
+}
+
+.conteudoBreadCrumbs .btSecundarioDentro
+{
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+.conteudoBreadCrumbs .btPrincipalDentro
+{
+	font-size:14px;
+	padding-top: 4px;
+}
+.breadCrumbs
+{
+	background: none repeat scroll 0 0 #FFFFFF;
+    /*border-bottom: 1px solid #E9EAE7;*/
+    height: 52px;
+    margin: 0px 15px 0 -1px;
+    position: fixed;
+    width: 100%;
+    min-width: 750px;
+    z-index: 20;
+}
+
+.degradeBreadCrumbs
+{
+	/*background: url("../../img/admin_loja/degrade_topo.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);*/
+	background:#f6f6f6;
+	height: 15px;
+	margin-top: -5px;
+}
+
+.faixaTopoBreadCrumbs
+{
+	background:#f6f6f6;
+	height:15px;
+	width:100%;
+}
+
+.breadCrumbs .btPrincipalMeio, .breadCrumbs .btPrincipalDentro
+{
+	height: 29px;
+}
+
+
+.breadCrumbs .btPrincipalFora
+{
+	height: 31px;
+}
+
+
+.conteudoBreadCrumb
+{
+	width:100%;
+}
+
+.conteudoBreadCrumbs .botaoAcaoTopo
+{
+	margin-top:10px;
+}
+
+.boxConteudoEsquerdaBreadCrumbs
+{
+	float:left;
+}
+
+.boxConteudoEsquerdaBreadCrumbs a span
+{
+	font-size: 13px;
+	text-decoration:underline;
+}
+
+.breadCrumbLinkInvalido
+{
+
+
+	cursor: default;
+}
+.breadCrumbs .menuBreadCrumb:last-child
+{
+
+}
+
+.breadCrumbAtual
+{
+	/*background: url("../../img/admin_loja/seta_breadcrumb.png") no-repeat scroll center bottom rgba(0, 0, 0, 0);*/
+	background: url('');
+    color: #600064;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    min-width: 80px;
+    padding: 13px 0 0 10px;
+}
+
+span.breadCrumbAtual img
+{
+	max-height:17px;
+}
+
+.breadCrumbSemDestaque
+{
+	background: url("../../img/admin_loja/divisor_menor.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #C9C9C9;
+    padding-left: 20px;
+	color:#c9c9c9;
+}
+
+.menuBreadCrumb img
+{
+	margin-top: -4px;
+	max-height: 15px;
+	margin-right: 5px;
+	max-width: 15px;
+}
+
+
+.tagit-new
+{
+	overflow: hidden;
+}
+
+.tagit-new	input[type="text"]
+{
+	background: #FFF important;
+	height: 18px;
+
+}
+
+.tagit
+{
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+}
+
+.selecionarItem
+{
+	border-right: 1px solid #D7D7D7;
+	float: left;
+	height: 30px;
+	text-align: center;
+	width: 4%;
+}
+
+/* UPLOAD DE IMAGEM */
+
+.boxOrganizaFotos .foto:first-child
+{
+    margin: 0;
+    width: 160px;
+    height: 160px;
+    float: none;
+    display: block;
+}
+
+.boxOrganizaFotos .foto:first-child img
+{
+    max-height: 160px;
+    max-width: 160px;
+}
+
+.boxOrganizaFotos .foto {
+    float: left;
+    height: 50px;
+    margin: 2px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+}
+
+.boxOrganizaFotos .foto img
+{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.boxOrganizaFotos .foto .ui-icon-circle-close {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+/* Regras para criar efeito de transiÃ§Ã£o manipulando o css do jQueryUI Sortable */
+.foto.ui-sortable-placeholder {
+    background: none repeat scroll 0 0 #FFFFE1;
+    border: 1px dashed #CCCCCC !important;
+    height: 50px;
+    visibility: visible !important;
+    width: 50px;
+}
+
+.foto.ui-sortable-placeholder:first-child {
+    height: 160px;
+    width: 160px;
+}
+
+.foto.ui-sortable-helper {
+    box-shadow: -3px 3px 10px #333333;
+    height: 75px !important;
+    transform: rotate(-5deg);
+    width: 75px !important;
+}
+
+.foto.drop-area {
+    background: none repeat scroll 0 0 #F6F6F6;
+    border-color: #B94A48;
+    border-style: dashed;
+}
+
+.foto.drop-area.ui-sortable-helper {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD;
+    border-style: solid;
+}
+/* FIM AlteraÃ§Ãµes jQueryUI Sortable */
+
+.fotoUpload {
+    width: 160px;
+    height: 160px;
+    border: 1px #d8d8d8 dashed;
+
+    cursor: pointer;
+}
+.fotoUploadSemImagem
+{
+    background: #fafafa url(../../img/admin_loja/adicionar_foto.png) center center no-repeat;
+}
+
+.fotoUpload .foto
+{
+	margin: 0;
+	width: 245px;
+	height: 160px;
+	float: none;
+
+    display: block;
+}
+
+
+
+.botoesControle
+{
+	background: #f0f1ef;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	color: #7a7e77;
+	font-weight: 600;
+	height: 30px;
+	padding: 6px 0 0 20px;
+	width: 100%;
+
+}
+
+.botoesControleTelasGenerica
+{
+	background: #f0f1ef;
+	border-left: 1px solid #D7D7D7;
+	border-right: 1px solid #D7D7D7;
+	border-top: 1px solid #D7D7D7;
+	border-bottom: 1px solid #D7D7D7;
+	color: #7a7e77;
+	font-weight: 600;
+	height: 55px;
+	padding:5px;
+	width: 100%;
+}
+
+.botoesControleTelasGenericaSemBorda
+{
+	background: transparent;
+	border: none;
+}
+
+.botoesControleTelasGenerica .btPrincipalFora
+{
+	height: 45px;
+	float:right;
+	width: 200px;
+}
+
+.foraBotoesControleTelaGenerica
+{
+	padding: 0;
+    bottom: 0px;
+    right: 0px;
+
+    margin-right:100px;
+    z-index:10;
+    height:50px;
+}
+
+hr.linhaDivisoria {
+    background: #D7D7D7;
+    color: #D7D7D7;
+    margin: 20px auto;
+    width: 96%;
+}
+
+span.subCategoriaIconeCurto {
+    background: url("../../img/admin_loja/subCategoriaIconeCurto.png") no-repeat center center;
+    display: inline-block;
+    width: 9px;
+    height: 8px;
+}
+
+/* TOOLTIP */
+/* This is how you would create a theme called "my-custom-theme": */
+
+.tt-my-custom-theme {
+	border-radius: 0px;
+	border: 2px solid #7aa14d;
+	background: #e5efd4;
+	color: #333;
+    max-width: 500px;
+}
+/* Use this next selector to style things like font-size and line-height: */
+.tt-my-custom-theme .tooltipster-content {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+#dialog-confirm
+{
+	display:none;
+}
+
+
+
+.boxConteudoPagina
+{
+	outline: none;
+}
+
+.confirmarSairTutorial.ui-widget-content {
+	width: auto !important;
+}
+
+.confirmarSairTutorial .ui-widget-header
+{
+	background: #FBFBFB;
+	border:1px solid #E5E6E3;
+	color: #7a7e77;
+	font-weight: 600;
+	font-size:16px;
+	height: 38px;
+	padding: 7px 0 0 15px;
+	width: 100%;
+}
+
+
+.confirmarSairTutorial
+{
+	background: rgb(246, 246, 246);
+}
+
+.confirmarSairTutorial  #dialog-confirm
+{
+	background: rgb(246, 246, 246);
+	min-height: 51px !important;
+	line-height: 12px !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+
+.confirmarSairTutorial  #dialog-confirm .textDialogConfirm {
+	word-wrap: break-word !important;
+	width: 90% !important;
+}
+
+.confirmarSairTutorial  .ui-corner-all
+{
+	border-radius: 0px;
+	mox-border-radius: 0px;
+}
+.confirmarSairTutorial  .ui-dialog-buttonpane
+{
+	background: rgb(246, 246, 246);
+	margin: 0;
+}
+
+.confirmarSairTutorial  .ui-dialog-buttonpane button
+{
+	background: #f0f1ee;
+	border: 1px solid #e5e6e3;
+	color: #7a7e77;
+	height: 30px;
+	outline: none;
+	padding: 0 5px;
+}
+
+.confirmarSairTutorial .textDialogConfirm
+{
+	margin-top: -11px;
+}
+
+.confirmarSairTutorial  .ui-dialog-buttonpane button:hover
+{
+	background: #7a7e77;
+	border-color: #4f524c;
+	color: #f0f1ee;
+}
+.verdeCompridoTopo
+{
+    width: 100%;
+    position: fixed;
+    height:47px;
+    background:#7cb128 ;
+    top:0;
+}
+.boxTiraDuvidaTela
+{
+   background: #f7f2f7;
+	min-height: 67px;
+	max-width: 760px;
+    width:100%;
+
+	margin-bottom: 15px;
+	padding-bottom: 1px;
+}
+.boxTiraDuvidaTela span
+{
+    font-weight: 600;
+}
+.boxTiraDuvidaTela img
+{
+    display:block;
+    float:left;
+    margin: 10px 0 0 20px;
+}
+
+.boxTiraDuvidaTela p
+{
+    display:block;
+    padding: 10px 0 0 75px;
+}
+
+
+.boxInformativoConfiguracao
+{
+    margin-bottom: 15px;
+    height: 60px;
+    width: 730px;
+}
+
+.iconeInformativoConfiguracao
+{
+    float: left;
+    height: 60px;
+    width: 58px;
+}
+
+.conteudoInformativoConfiguracao
+{
+    float: left;
+    height: 60px;
+    width: 660px;
+}
+
+.conteudoInformativoConfiguracao h2
+{
+    font-weight: 600;
+    font-size: 15px;
+    margin:10px 0 0 0;
+}
+
+.conteudoInformativoConfiguracao p
+{
+    font-size: 14px;
+    margin:5px 0 0 0;
+}
+
+/*OPCAO ATIVADA E DESATIVADA*/
+.boxAtivarDesativarOpcao
+{
+    float: left;
+    height: 60px;
+    padding-top: 19px;
+    text-align: center;
+    width: 12%;
+}
+
+.boxAtivarDesativarOpcaoEnvio
+{
+    float: right;
+    height: 60px;
+    padding-top: 12px;
+    text-align: center;
+    width: 77px;
+}
+
+div.boxAtivarDesativarOpcaoEnvio p
+{
+    margin: 8px 0 0 10px;
+    width: auto;
+}
+
+.opcaoFormaAtivada
+{
+    background: url("../../img/admin_loja/ativo_listagem.png") no-repeat 2px center;
+}
+
+.opcaoFormaAtivada p
+{
+    color: #7cb128;
+}
+
+.opcaoFormaAtivada p:after
+{
+    content: "Ativo";
+}
+
+.opcaoFormaDesativada
+{
+    background: url("../../img/admin_loja/inativo_listagem.png") no-repeat 2px center;
+}
+
+.opcaoFormaDesativada p
+{
+    color: #b12828;
+}
+
+.opcaoFormaDesativada p:after
+{
+    content: "Inativo";
+}
+
+/* regra para tirar o scroll do modal */
+.modal
+{
+    outline: none;
+/*
+    position:absolute !important;
+    overflow: initial !important;
+    */
+}
+
+.btnFechar span
+{
+    text-decoration: underline;
+}
+
+.naoMostrarElemento
+{
+    display:none !important;
+}
+#btFlutuantePrincipal
+{
+    position:fixed;
+}
+#btEstaticoPrincipal
+{
+    margin-right:0;
+}
+.modal-backdrop.in
+{
+    opacity: 0.7 !important;
+}
+.boxNivelMenuAtual
+{
+    cursor:pointer;
+    height:40px;
+    padding-left: 8px;
+    width:100%;
+}
+.boxNivelMenuAtualboxNivelMenuAtual:hover  h5
+{
+    text-decoration: underline;
+}
+#modal_recursos
+{
+    padding-top:10px;
+}
+.ui-dialog
+{
+    z-index:9999999 !important;
+}
+.ui-widget-overlay
+{
+    z-index:9999998 !important;
+}
+.selecaoColorPicker {
+
+    margin:-5px 5px 5px 5px;
+    border: 1px solid #777777;
+    cursor:pointer;
+}
+.colpick_hex_field input
+{
+    font-size:12px !important;
+}
+
+.botaoAdicionarFoto
+{
+	background: url("../../img/admin_loja/adicionar_nova_foto.png") center center no-repeat;
+	border-bottom: 1px solid #BDBDBD;
+	border-left:1px solid #e5e5e3;
+	border-right:1px solid #e5e5e3;
+	border-top:1px solid #e5e5e3;
+    cursor: pointer;
+    height: 25px;
+    margin-top: 10px;
+    width: 158px;
+}
+
+.botaoAdicionarFoto:hover
+{
+	cursor:pointer;
+}
+
+.botaoAdicionarFoto input[type="file"]
+{
+	display: block;
+    height: 25px;
+    opacity: 0;
+    width: 160px;
+}
+
+.botaoAdicionarArquivo
+{
+    background: url("../../img/admin_loja/botao_adicionar_arquivo.png") center center no-repeat;
+    border-bottom: 1px solid #BDBDBD;
+    border-left:1px solid #e5e5e3;
+    border-right:1px solid #e5e5e3;
+    border-top:1px solid #e5e5e3;
+    cursor: pointer;
+    height: 25px;
+    margin-top: 10px;
+    width: 158px;
+}
+
+.botaoAdicionarArquivo:hover
+{
+    cursor:pointer;
+}
+.botaoAdicionarArquivo input[type="file"]
+{
+    display: block;
+    height: 25px;
+    opacity: 0;
+    width: 160px;
+}
+.barraProgresso
+{
+	width:158px;
+}
+
+div.uploadBar
+{
+	height:2px;
+}
+
+/*INICIO ALERTA DE CONFIRMAÇÃO*/
+div.confirmarSairTutorial div.ui-widget-header
+{
+    background: #7CB128;
+}
+
+.ui-dialog .ui-dialog-title
+{
+    color: #fff;
+}
+
+div.confirmarSairTutorial div.textDialogConfirm
+{
+    color: #7A7E77;
+    line-height: 16px;
+    margin-top: -11px;
+}
+
+.ui-dialog-buttonset button:last-child
+{
+    background: #7CB128;
+    color: #fff;
+}
+
+.confirmarSairTutorial div.ui-dialog-buttonpane button
+{
+    height: 26px;
+    padding: 0 10px;
+}
+
+.ui-dialog-buttonset button:last-child:hover
+{
+    background: #406800;
+}
+
+span.ui-icon-closethick
+{
+    background-position: -97px -129px;
+}
+/*FIM ALERTA DE CONFIRMAÇÃO*/
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{
+    border-color: #888888;
+}
+
+.foto img
+{
+    max-width: 150px;
+    max-height: 150px;
+}
+.colpick
+{
+    z-index:9999;
+}
+
+.height1
+{
+	height: 1px !important;
+}
+
+.boxConteudoTimeline
+{
+	min-width: 760px;
+}
+
+.modal .boxPagina.boxPaginaModal
+{
+	float: none;
+}
+
+
+
+@media only screen and (max-width: 999px) {
+    /* rules that only apply for canvases narrower than 1000px */
+
+}
+
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+    /* rules for iPad in landscape orientation */
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1020px)
+ {/**/
+/* android, iphone etc etc */
+
+    .container
+    {
+        /*width:660px !important;
+        min-width:660px !important;
+        */
+    }
+    .boxPagina
+    {
+        min-width: 660px;
+    }
+    .itensMenu
+    {
+        position: fixed;
+        display:none;
+    }
+    .breadCrumbs
+    {
+        /*width:760px !important;*/
+    }
+    .boxMenu
+    {
+        float: left;
+        /*height: 730px;*/
+        width: 0px;
+    }
+    .barraCabecalho
+    {
+        width:760px !important;
+    }
+    /*
+    .boxConteudo
+    {
+        width:660px !important;
+        min-width:660px !important;
+    }*/
+
+    .posicionamentoMenu
+    {
+        width: 230px;
+    }
+
+    .botaoMenuMobilecabecalho
+    {
+        display: block;
+    }
+
+    .cabecalhoBotaoOpcoes
+    {
+        height: 45px;
+        width: 435px;
+    }
+
+    .posicionamentoMenu
+    {
+        background: #F6F6F6 ;
+    }
+
+    div.cabecalhoOpcoesPessoais
+    {
+        height: 46px;
+        width: 200px;
+    }
+
+    a.aumentePlanoBotaoOpcoes
+    {
+        float: left;
+        margin: 10px 0 0 -14px;
+    }
+
+    a.aumentePlanoBotaoOpcoes span
+    {
+        display: none;
+    }
+
+    div.boxMenuOpcoesPessoais
+    {
+        margin-left: 53px;
+        right: auto;
+    }
+
+    .englobaLinkOpcoesPessoais
+    {
+        position: relative;
+        z-index: 99999;
+    }
+    .container
+    {
+        width:760px;
+        min-width:760px;
+    }
+
+    /*Preview Layout*/
+    div.setaConfigurarLayoutPreview
+    {
+        display: none;
+    }
+    div.boxConfigurarLayoutPreview
+    {
+        margin-left: -157px !important;
+    }
+    div.boxConfigurarLayoutPreview
+    {
+        width: 165px;
+    }
+
+}/**/
+
+/* AVISO TAMANHO ARQUIVO UPLOAD */
+.avisoTamanhoArquivo img {
+	margin: 10px;
+	vertical-align: middle;
+}
+/* FIM AVISO TAMANHO ARQUIVO UPLOAD */
+
+
+div.colpick_submit
+{
+    color: #fff;
+    background: #7cb128;
+}
+
+
+div.colpick_submit:hover
+{
+    background: #406800;
+}
+.boxNivelMenuAtencao
+{
+    display: none;
+}
+.invisivel
+{
+    display:none;
+}
+
+/*INICIO MOSTRAR/OCULTAR CONTEUDO PAGINA*/
+
+.botaoMostraOcultaBlocoPagina
+{
+    cursor: pointer;
+    padding: 11px 0 0 0;
+    position: absolute;
+    right: 30px;
+    top: 0;
+    z-index: 9;
+}
+
+.botaoMostraOcultaBlocoPagina p
+{
+    color:#a7a7a7 ;
+    float: left;
+    font-size: 12px;
+}
+
+.boxconteudoOcultarDetalhesProduto:last-child .conteudoOcultarDetalhesProduto
+{
+    border-bottom:none;
+    margin-bottom: 0;
+}
+
+.botaoOcultarBlocoPagina
+{
+
+}
+
+.botaoExibirBlocoPagina
+{
+
+}
+
+.subTitulo .botaoOcultarBlocoPagina
+{
+
+}
+
+.subTitulo .botaoExibirBlocoPagina
+{
+
+}
+
+div.alteraTextoBotaoOcultar .botaoOcultarBlocoPagina
+{
+
+}
+
+div.alteraTextoBotaoOcultar .botaoExibirBlocoPagina
+{
+
+}
+
+.conteudoOcultoMargem
+{
+    margin-bottom: 20px;
+}
+
+
+/*FIM MOSTRAR/OCULTAR CONTEUDO PAGINA*/
+
+.width600
+{
+    width: 600px;
+}

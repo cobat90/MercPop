@@ -1,0 +1,30 @@
+Versão 1.1
+	- Incluido Leiame.txt
+	- Incluido página 
+		- 404.html
+		- construcao.html
+		- precos.html
+	- Limpeza do não estava sendo utilizado
+	- Atualizado notes/faturamento.txt
+	
+Versão 1.2
+	- Incluido pasta PHP
+		- Incluido pasta blade com arquivos blade.php
+		- Incluido pasta pages com arquivos das paginas em .php
+		
+Versão 1.3
+	- Incluido pasta ADM
+		- Incluido pagina index e produtos
+		
+Versão 1.4
+	- Pasta ADM
+		- Incluido paginas novas de adm (categoria,config_loja e visual)
+		- Pagina de produtos alterada
+	- Pasta assets/css
+		- Adicionado adm-formulario.css, adm-geral.css, adm-theme.css
+		
+Versão 1.5
+	- Pasta ADM
+		- Incluido mais paginas
+		- Alteração de algumas paginas
+	

@@ -1,0 +1,1633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Z-Theme | Multipurpose Responsive Template</title>
+  <link rel="icon" href="assets/images/favicon.ico">
+  <!--[if IE 8]><html class="ie8"><![endif]-->
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700,800,300' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Theme -->
+  <link rel="stylesheet" type="text/css" href="assets/css/theme.css">
+	    <link rel="stylesheet" href="assets/css/main.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper-body">
+
+    <!-- NAVBAR -->
+    <!--===============================================================-->
+    <div id="header">
+      <nav id="nav" class="navbar navbar-default navbar-static-top">
+        <div class="menu-top menu-top-inverse">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-5 hidden-xs">
+                <a class="title-menu-top display-inline-block" href="mailto:support@example.com">support@example.com</a>
+              </div>
+              <div class="col-sm-7 col-xs-12">
+                <div class="pull-right">
+                  <div class="dropdown dropdown-login pull-left">
+                    <button class="btn-menu-top" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Log in</button>
+                    <div class="dropdown-menu dropdown-menu-right stop-prop" role="menu" aria-labelledby="dLabel">
+                      <div class="wrapper-form-box">
+                        <h3>Log In</h3>
+                        <form>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                              <input type="text" class="form-control" placeholder="Username">
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="input-group">
+                              <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                              <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-primary text-theme-xs mr-8">Login</button>
+                          <a href="#" class="text-theme-xs pull-right a-black">Forgot your password ?</a>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dropdown dropdown-cart pull-left">
+                    <button class="btn-menu-top hidden-xs" id="dShop" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Cart (3)</button>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-cart stop-prop" role="menu" aria-labelledby="dShop">
+                      <div class="panel-shopping-cart">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th class="text-center"><i class="fa fa-shopping-cart"></i></th>
+                              <th>Product Name</th>
+                              <th>Quantity</th>
+                              <th>Total</th>
+                              <th></th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="table-first"><img class="img-responsive" src="assets/images/general/imac.png" alt="theme-img"></td>
+                              <td><span class="title">Apple iMac 21.5</span></td>
+                              <td><input type="text" class="form-control" maxlength="3" value="1"></td>
+                              <td><span>$1249</span></td>
+                              <td class="close-cart"><a href="#" class="btn btn-primary btn-sm"><i class="fa fa-times"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td class="table-first"><img class="img-responsive" src="assets/images/shop/80x80.gif" alt="theme-img"></td>
+                              <td><span class="title">Asus Laptop</span></td>
+                              <td><input type="text" class="form-control" maxlength="3" value="1"></td>
+                              <td><span>$1249</span></td>
+                              <td class="close-cart"><a href="#" class="btn btn-primary btn-sm"><i class="fa fa-times"></i></a></td>
+                            </tr>
+                            <tr>
+                              <td class="table-first"><img class="img-responsive" src="assets/images/shop/80x80.gif" alt="theme-img"></td>
+                              <td><span class="title">Lenovo Tablet</span></td>
+                              <td><input type="text" class="form-control" maxlength="3" value="1"></td>
+                              <td><span>$1249</span></td>
+                              <td class="close-cart"><a href="#" class="btn btn-primary btn-sm "><i class="fa fa-times"></i></a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div class="panel-footer">
+                          <div class="row">
+                            <div class="col-sm-3">
+                              <a href="#" class="btn btn-default btn-sm">Continue Shopping</a>
+                            </div>
+                            <div class="col-sm-9 text-right">
+                              <a href="#" class="btn btn-default btn-sm">Update Cart</a>
+                              <a href="#" class="btn btn-primary btn-sm">Procceed to checkout</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="list-inline social-icons-menu-top pull-right">
+                  <a href="#" class="social-hover-v1 a-facebook"></a>
+                  <a href="#" class="social-hover-v1 a-google"></a>
+                  <a href="#" class="social-hover-v1 a-twitter"></a>
+                  <a href="#" class="social-hover-v1 a-linkedin"></a>
+                  <a href="#" class="social-hover-v1 a-pinterest"></a>
+                  <a href="#" class="social-hover-v1 a-behance"></a>
+                  <a href="#" class="social-hover-v1 a-youtube"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/images/logo/logo-default.png" alt="theme-img"></a>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+
+            <ul class="nav navbar-nav navbar-right">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                  <li><a href="index.html">Default</a></li>
+                  <li><a href="home-bg-slider.html">Background Image Slider</a></li>
+                  <li><a href="home-video-bg.html">Video Background</a></li>
+                  <li><a href="home-browser-slider.html">Browser Slider</a></li>
+                  <li><a href="home-macbook-slider.html">Macbook Slider</a></li>
+                  <li><a href="home-filterable-portfolio.html">Filterable Portfolio</a></li>
+                  <li><a href="home-application.html">Application</a></li>
+                  <li><a href="home-personal-portfolio.html">Personal Portfolio</a></li>
+                  <li><a href="home-personal-portfolio-option-2.html">Personal Portfolio</a></li>
+                  <li><a href="home-one-page.html">One Page</a></li>
+                  <li><a href="home-photographer.html">Photographer</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+
+                  <li class="dropdown-submenu">
+                    <a href="#">About Us</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="about-us-option-1.html">Option-1 - About Us</a></li>
+                      <li><a href="about-us-option-2.html">Option-2 - About Us</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Services</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="services-option-1.html">Option-1 - Services</a></li>
+                      <li><a href="services-option-2.html">Option-2 - Services</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Contact Us</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="contact-us-option-1.html">Option-1 - Contact Us</a></li>
+                      <li><a href="contact-us-option-2.html">Option-2 - Contact Us</a></li>
+                      <li><a href="contact-us-option-3.html">Option-3 - Contact Us</a></li>
+                      <li><a href="contact-us-option-4.html">Option-4 - Contact Us</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Log in - Register</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="register-option-1.html">Option-1 - Register</a></li>
+                      <li><a href="login-option-1.html">Option-1 - Log in</a></li>
+                      <li><a href="register-login-option-1.html">Option-1 - Register - Log in</a></li>
+                      <li><a href="register-option-2.html">Option-2 - Register</a></li>
+                      <li><a href="login-option-2.html">Option-2 - Log in</a></li>
+                      <li><a href="register-login-option-2.html">Option-3 - Register - Log in</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Coming Soon</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="coming-soon-option-1.html">Option-1 - Coming Soon</a></li>
+                      <li><a href="coming-soon-option-2.html">Option-2 - Coming Soon</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Timeline</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="timeline.html">Timeline Side</a></li>
+                      <li><a href="timeline-center.html">Timeline Center</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Error</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="404-option-1.html">Option 1 - Error</a></li>
+                      <li><a href="404-option-2.html">Option 2 - Error</a></li>
+                      <li><a href="404-option-3.html">Option-3 - Error</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown-submenu">
+                    <a href="#">Sub Level - 1</a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">Sub Level - 2</a></li>
+                      <li class="dropdown-submenu">
+                        <a href="#">Sub Level - 2</a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li class="dropdown-submenu">
+                            <a href="#">Sub Level - 3</a>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#">Sub Level - 4</a></li>
+                              <li class="dropdown-submenu">
+                                <a href="#">Sub Level - 4</a>
+                                <ul class="dropdown-menu" role="menu">
+                                  <li><a href="#">Sub Level-5</a></li>
+                                  <li><a href="#">Sub Level-5</a></li>
+                                  <li><a href="#">Sub Level-5</a></li>
+                                </ul>
+                              </li>
+                              <li><a href="#">Sub Level - 4</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="#">Sub Level-3</a></li>
+                          <li><a href="#">Sub Level-3</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Sub Level - 2</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="pricetables.html">Pricing Tables</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                </ul>
+              </li>
+
+              <li class="li-mega-menu dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Features</a>
+                <div class="wrapper-mega-menu v1" role="menu">
+                  <div class="mega-menu">
+                    <div class="container">
+                      <div class="wrapper-row wrapper-row-features">
+                        <div class="row">
+                          <div class="col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                              <li><a href="feature-icon-box.html"><i class="fa fa-rocket"></i>Icon</a></li>
+                              <li><a href="feature-general-typography.html"><i class="fa fa-font"></i>Typography</a></li>
+                              <li><a href="feature-content-box.html"><i class="fa fa-list-alt"></i>Content Box</a></li>
+                              <li><a href="feature-primary-button.html"><i class="fa fa-hand-o-up"></i>Button</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                              <li><a href="feature-accordion.html"><i class="fa fa-cogs"></i>Accordion</a></li>
+                              <li><a href="feature-tab.html"><i class="fa fa-tasks"></i>Tab</a></li>
+                              <li><a href="feature-panel.html"><i class="fa fa-columns"></i>Panel</a></li>
+                              <li><a href="feature-form.html"><i class="fa fa-check-square-o"></i>Form</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                              <li><a href="feature-counter.html"><i class="fa fa-tachometer"></i>Counter</a></li>
+                              <li><a href="feature-slider.html"><i class="fa fa-play-circle"></i>Slider</a></li>
+                              <li><a href="feature-callout.html"><i class="fa fa-desktop"></i>Callout</a></li>
+                              <li><a href="pricetables.html"><i class="fa fa-rocket"></i>Pricing Tables</a></li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-6 col-md-3">
+                            <ul class="list-unstyled">
+                              <li><a href="navbar-fixed-inverse.html"><i class="fa fa-bars"></i>Header Inverse</a></li>
+                              <li><a href="navbar-fixed-default-menu-top.html"><i class="fa fa-bars"></i>Default Menu Top</a></li>
+                              <li><a href="navbar-fixed-inverse-menu-top.html"><i class="fa fa-bars"></i>Inverse Menu Top</a></li>
+                              <li><a href="navbar-transparent.html"><i class="fa fa-bars"></i>Transparent</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                  <li><a href="shop.html">Shop Default</a></li>
+                  <li><a href="shop-sidebar.html">Shop Sidebar</a></li>
+                  <li><a href="shop-item.html">Shop Item</a></li>
+                  <li><a href="shop-cart.html">Shop Cart</a></li>
+                </ul>
+              </li>
+
+              <li class="li-mega-menu dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Mega Menu</a>
+                <div class="wrapper-mega-menu v2 stop-prop" role="menu">
+                  <div class="mega-menu">
+                    <div class="container">
+                      <div class="wrapper-row">
+                        <div class="row">
+                          <div class="col-sm-4 col-md-3">
+                            <h3 class="title-sm hr-full">Lists</h3>
+                            <ul class="list-unstyled list-lg">
+                              <li><i class="fa fa-check"></i>Fast Service</li>
+                              <li><i class="fa fa-check"></i>7/24 Customer Support</li>
+                              <li><i class="fa fa-check"></i>Experienced Team</li>
+                              <li><i class="fa fa-check"></i>Joyful Experience</li>
+                              <li><i class="fa fa-check"></i>Fast Service</li>
+                              <li><i class="fa fa-check"></i>7/24 Customer Support</li>
+                              <li><i class="fa fa-check"></i>Experienced Team</li>
+                              <li><i class="fa fa-check"></i>Joyful Experience</li>
+                              <li><i class="fa fa-check"></i>Fast Service</li>
+                              <li><i class="fa fa-check"></i>7/24 Customer Support</li>
+                            </ul>
+                          </div>
+                          <div class="col-sm-2 col-md-3">
+                            <h3 class="title-sm hr-full"><span class="hidden-sm">Post</span> Boxes</h3>
+                            <div class="post-xs-side">
+                              <img class="img-responsive" src="assets/images/placeholder/80x80.gif" alt="theme-img">
+                              <a href="#" class="category">MUSIC</a>
+                              <p class="title hidden-sm">Lorem ipsum dolor amet</p>
+                              <p class="meta hidden-md hidden-sm">January 1, 2014</p>
+                            </div>
+                            <div class="post-xs-side">
+                              <img class="img-responsive img-thumb" src="assets/images/placeholder/80x80.gif" alt="theme-img">
+                              <a href="#" class="category">VIDEO</a>
+                              <p class="title hidden-sm">Lorem ipsum dolor amet</p>
+                              <p class="meta hidden-md hidden-sm">January 1, 2014</p>
+                            </div>
+                            <div class="post-xs-side">
+                              <img class="img-responsive img-thumb" src="assets/images/placeholder/80x80.gif" alt="theme-img">
+                              <a href="#" class="category">MOVIE</a>
+                              <p class="title hidden-sm">Lorem ipsum dolor amet</p>
+                              <p class="meta hidden-md hidden-sm">January 1, 2014</p>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 col-md-3">
+                            <h3 class="title-sm hr-full">Slider</h3>
+                            <!-- SLIDER -->
+                            <div class="wrapper-slider text-theme">
+                              <div id="slider-mega-menu" class="carousel slide" data-ride="carousel" data-interval="false">
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                  <div class="item active">
+                                    <img class="img-slide" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </div>
+                                  <div class="item">
+                                    <img class="img-slide" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </div>
+                                  <div class="item">
+                                    <img class="img-slide" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </div>
+                                  <div class="item">
+                                    <img class="img-slide" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </div>
+                                </div>
+                                <!-- Controls -->
+                                <a href="#slider-mega-menu" role="button" data-slide="prev">
+                                  <i class="fa fa-angle-left fa-2x btn-prev"></i>
+                                </a>
+                                <a href="#slider-mega-menu" role="button" data-slide="next">
+                                  <i class="fa fa-angle-right fa-2x btn-next"></i>
+                                </a>
+                              </div>
+                            </div>
+                            <!-- SLIDER END-->
+                            <p class="text-theme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius sapien pellentesque.</p>
+                            <a class="text-theme btn btn-md btn-primary">Read More</a>
+                          </div>
+
+                          <div class="col-sm-2 col-md-3">
+                            <h3 class="title-sm hr-full">Portfolio</h3>
+                              <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="row hidden-sm">
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                  <a href="#" class="img-wrapper rounded">
+                                    <img class="img-responsive" src="assets/images/portfolio/800x600.gif" alt="theme-img">
+                                  </a>
+                                </div>
+                              </div>
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Blog</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                  <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                  <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                  <li><a href="blog-bg-intro.html">Blog Background Intro</a></li>
+                  <li><a href="timeline-center.html">Blog Timeline</a></li>
+                  <li><a href="blog-post-option-1.html">Blog Post</a></li>
+                  <li><a href="blog-post-option-2.html">Blog Post Bg Intro</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio</a>
+                <ul class="dropdown-menu dropdown-menu-left" role="menu">
+                  <li><a href="portfolio-item.html">Portfolio Item</a></li>
+                  <li><a href="portfolio-4-column.html">4 Column</a></li>
+                  <li><a href="portfolio-3-column.html">3 Column</a></li>
+                  <li><a href="portfolio-2-column.html">2 Column</a></li>
+                  <li><a href="portfolio-fluid-full-4-column.html">Fluid Full 4 Column</a></li>
+                  <li><a href="portfolio-fluid-full-3-column.html">Fluid Full 3 Column</a></li>
+                  <li><a href="portfolio-fluid-full-2-column.html">Fluid Full 2 Column</a></li>
+                  <li><a href="portfolio-fluid-4-column.html">Fluid 4 Column</a></li>
+                  <li><a href="portfolio-fluid-3-column.html">Fluid 3 Column</a></li>
+                  <li><a href="portfolio-fluid-2-column.html">Fluid 2 Column</a></li>
+                </ul>
+              </li>
+
+              <li class="li-search">
+                <form class="nav-search">
+                  <label for="focus-input"><i class="fa fa-search"></i></label>
+                  <input id="focus-input" class="container" type="search" name="s" placeholder="To Search, Type and Hit Enter">
+                </form>
+              </li>
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+    </div>
+    <!-- NAVBAR END -->
+
+
+    <div class="container mt">
+      <div class="row">
+        <!-- MAIN CONTENT -->
+        <!--===============================================================-->
+         <div class="col-xs-12 col-sm-3 no-margin sidebar narrow">
+
+            <!-- ========================================= PRODUCT FILTER ========================================= -->
+<div class="widget">
+    <h1>Product Filters</h1>
+    <div class="body bordered">
+        
+        <div class="category-filter">
+            <h2>Brands</h2>
+            <hr>
+            <ul>
+                <li><input checked="checked" class="le-checkbox" type="checkbox"  /> <label>Samsung</label> <span class="pull-right">(2)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Dell</label> <span class="pull-right">(8)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Toshiba</label> <span class="pull-right">(1)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Apple</label> <span class="pull-right">(5)</span></li>
+            </ul>
+        </div><!-- /.category-filter -->
+        
+        <div class="price-filter">
+            <h2>Price</h2>
+            <hr>
+            <div class="price-range-holder">
+
+                <input type="text" class="price-slider" value="" >
+
+                <span class="min-max">
+                    Price: $89 - $2899
+                </span>
+                <span class="filter-button">
+                    <a href="#">Filter</a>
+                </span>
+            </div>
+        </div><!-- /.price-filter -->
+
+    </div><!-- /.body -->
+</div><!-- /.widget -->
+<!-- ========================================= PRODUCT FILTER : END ========================================= -->
+            <!-- ========================================= CATEGORY TREE ========================================= -->
+<div class="widget accordion-widget category-accordions">
+    <h1 class="border">Category Tree</h1>
+    <div class="accordion">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                    laptops &amp; computers
+                </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                    <ul>
+                        <li>
+                            <div class="accordion-heading">
+                                <a href="#collapseSub1" data-toggle="collapse">laptop</a>
+                            </div>
+                            <div id="collapseSub1" class="accordion-body collapse in">
+                                <ul>
+                                    <li><a href="#">Two Level Accordion</a></li>
+                                </ul>
+                            </div><!-- /.accordion-body -->
+                        </li>
+                        <li>
+                            <div class="accordion-heading">
+                                <a href="#collapseSub2" data-toggle="collapse">tablet</a>
+                            </div>
+                            <div id="collapseSub2" class="accordion-body collapse in">
+                                <ul>
+                                    <li>
+                                        <div class="accordion-heading">
+                                            <a href="#collapseSub3" data-toggle="collapse">Three Level Accordion</a>
+                                        </div>
+                                        <div id="collapseSub3" class="accordion-body collapse in">
+                                            <ul>
+                                                <li><a href="#">PDA</a></li>
+                                                <li><a href="#">notebook</a></li>
+                                                <li><a href="#">mini notebook</a></li>
+                                            </ul>
+                                        </div><!-- /.accordion-body -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">PDA</a></li>
+                        <li><a href="#">notebook</a></li>
+                        <li><a href="#">mini notebook</a></li>
+                    </ul>
+                </div><!-- /.accordion-inner -->
+            </div>
+        </div><!-- /.accordion-group -->
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseTwo">
+                    desktop PC
+                </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">gaming</a></li>
+                        <li><a href="#">office</a></li>
+                        <li><a href="#">kids</a></li>
+                        <li><a href="#">for women</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse"  href="#collapse3">
+                    laptops
+                </a>
+            </div>
+            <div id="collapse3" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">light weight</a></li>
+                        <li><a href="#">wide monitor</a></li>
+                        <li><a href="#">ultra laptop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse"  href="#collapse4">
+                    notebooks
+                </a>
+            </div>
+            <div id="collapse4" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">light weight</a></li>
+                        <li><a href="#">wide monitor</a></li>
+                        <li><a href="#">ultra laptop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+    </div><!-- /.accordion -->
+</div><!-- /.category-accordions -->
+<!-- ========================================= CATEGORY TREE : END ========================================= -->
+            <!-- ========================================= LINKS ========================================= -->
+<div class="widget">
+    <h1 class="border">information</h1>
+    <div class="body">
+        <ul class="le-links">
+            <li><a href="#">delivery</a></li>
+            <li><a href="#">secure payment</a></li>
+            <li><a href="#">our stores</a></li>
+            <li><a href="#">contact</a></li>
+        </ul><!-- /.le-links -->
+    </div><!-- /.body -->
+</div><!-- /.widget -->
+<!-- ========================================= LINKS : END ========================================= -->
+            <div class="widget">
+	<div class="simple-banner">
+		<a href="#"><img alt="" class="img-responsive" src="assets/images/blank.gif" data-echo="assets/images/banners/banner-simple.jpg" /></a>
+	</div>
+</div>
+            <!-- ========================================= FEATURED PRODUCTS ========================================= -->
+<div class="widget">
+    <h1 class="border">Featured Products</h1>
+    <ul class="product-list">
+        
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">Netbook Acer </a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-03.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">Netbook Acer </a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+        
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+    </ul><!-- /.product-list -->
+</div><!-- /.widget -->
+<!-- ========================================= FEATURED PRODUCTS : END ========================================= -->
+        </div>
+        <!-- ========================================= SIDEBAR : END ========================================= -->
+
+        <!-- ========================================= CONTENT ========================================= -->
+
+        <div class="col-xs-12 col-sm-9 no-margin wide sidebar">
+
+            
+
+            <section id="gaming">
+    <div class="grid-list-products">
+        <h2 class="section-title">Gaming</h2>
+        
+        <div class="control-bar">
+            <div id="popularity-sort" class="le-select" >
+                <select data-placeholder="sort by popularity">
+                    <option value="1">1-100 players</option>
+                    <option value="2">101-200 players</option>
+                    <option value="3">200+ players</option>
+                </select>
+            </div>
+            
+            <div id="item-count" class="le-select">
+                <select>
+                    <option value="1">24 per page</option>
+                    <option value="2">48 per page</option>
+                    <option value="3">32 per page</option>
+                </select>
+            </div>
+
+            <div class="grid-list-buttons">
+                <ul>
+                    <li class="grid-list-button-item active"><a data-toggle="tab" href="#grid-view"><i class="fa fa-th-large"></i> Grid</a></li>
+                    <li class="grid-list-button-item "><a data-toggle="tab" href="#list-view"><i class="fa fa-th-list"></i> List</a></li>
+                </ul>
+            </div>
+        </div><!-- /.control-bar -->
+                                
+        <div class="tab-content">
+            <div id="grid-view" class="products-grid fade tab-pane in active">
+                
+                <div class="product-grid-holder">
+                    <div class="row no-margin">
+                        
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon red"><span>sale</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount green">-50% sale</div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon blue"><span>new!</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" data-echo="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">White lumia 9001</a>
+                                    </div>
+                                    <div class="brand">nokia</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" data-echo="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">POV Action Cam</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+                            
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon red"><span>sale</span></div> 
+                                <div class="ribbon green"><span>bestseller</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-04.jpg" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">Netbook Acer TravelMate B113-E-10072</a>
+                                    </div>
+                                    <div class="brand">acer</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon red"><span>sale</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount green">-50% sale</div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon blue"><span>new!</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" data-echo="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">White lumia 9001</a>
+                                    </div>
+                                    <div class="brand">nokia</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" data-echo="assets/images/shop/500x500.gif" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">POV Action Cam</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="ribbon red"><span>sale</span></div> 
+                                <div class="ribbon green"><span>bestseller</span></div> 
+                                <div class="image">
+                                    <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-04.jpg" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">Netbook Acer TravelMate B113-E-10072</a>
+                                    </div>
+                                    <div class="brand">acer</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                        <div class="col-xs-12 col-sm-4 no-margin product-item-holder hover">
+                            <div class="product-item">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" data-echo="assets/images/products/product-03.jpg" />
+                                </div>
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">POV Action Cam</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                </div>
+                                <div class="prices">
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="price-current pull-right">$1199.00</div>
+                                </div>
+                                <div class="hover-area">
+                                    <div class="add-cart-button">
+                                        <a href="single-product.html" class="le-button">add to cart</a>
+                                    </div>
+                                    <div class="wish-compare">
+                                        <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                        <a class="btn-add-to-compare" href="#">compare</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.product-item -->
+                        </div><!-- /.product-item-holder -->
+
+                    </div><!-- /.row -->
+                </div><!-- /.product-grid-holder -->
+                
+                <div class="pagination-holder">
+                    <div class="row">
+                        
+                        <div class="col-xs-12 col-sm-6 text-left">
+                            <ul class="pagination ">
+                                <li class="current"><a  href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">next</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="result-counter">
+                                Showing <span>1-9</span> of <span>11</span> results
+                            </div>
+                        </div>
+
+                    </div><!-- /.row -->
+                </div><!-- /.pagination-holder -->
+            </div><!-- /.products-grid #grid-view -->
+
+            <div id="list-view" class="products-grid fade tab-pane ">
+                <div class="products-list">
+                    
+                    <div class="product-item product-item-holder">
+                        <div class="ribbon red"><span>sale</span></div> 
+                        <div class="ribbon blue"><span>new!</span></div>
+                        <div class="row">
+                            <div class="no-margin col-xs-12 col-sm-4 image-holder">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                            </div><!-- /.image-holder -->
+                            <div class="no-margin col-xs-12 col-sm-5 body-holder">
+                                <div class="body">
+                                    <div class="label-discount green">-50% sale</div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                    <div class="excerpt">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis euismod erat sit amet porta. Etiam venenatis ac diam ac tristique. Morbi accumsan consectetur odio ut tincidunt.</p>
+                                    </div>
+                                    <div class="addto-compare">
+                                        <a class="btn-add-to-compare" href="#">add to compare list</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.body-holder -->
+                            <div class="no-margin col-xs-12 col-sm-3 price-area">
+                                <div class="right-clmn">
+                                    <div class="price-current">$1199.00</div>
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="availability"><label>availability:</label><span class="available">  in stock</span></div>
+                                    <a class="le-button" href="#">add to cart</a>
+                                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                </div>
+                            </div><!-- /.price-area -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-item -->
+
+
+                    <div class="product-item product-item-holder">
+                        <div class="ribbon green"><span>bestseller</span></div>
+                        <div class="row">
+                            <div class="no-margin col-xs-12 col-sm-4 image-holder">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                            </div><!-- /.image-holder -->
+                            <div class="no-margin col-xs-12 col-sm-5 body-holder">
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                    <div class="excerpt">
+                                        <div class="star-holder">
+                                            <div class="star" data-score="4"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis euismod erat sit amet porta. Etiam venenatis ac diam ac tristique. Morbi accumsan consectetur odio ut tincidunt.</p>
+                                    </div>
+                                    <div class="addto-compare">
+                                        <a class="btn-add-to-compare" href="#">add to compare list</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.body-holder -->
+                            <div class="no-margin col-xs-12 col-sm-3 price-area">
+                                <div class="right-clmn">
+                                    <div class="price-current">$1199.00</div>
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="availability"><label>availability:</label><span class="not-available">out of stock</span></div>
+                                    <a class="le-button disabled" href="#">add to cart</a>
+                                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                </div>
+                            </div><!-- /.price-area -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-item -->
+
+
+                    <div class="product-item product-item-holder">
+                        <div class="ribbon red"><span>sell</span></div> 
+                        <div class="row">
+                            <div class="no-margin col-xs-12 col-sm-4 image-holder">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                            </div><!-- /.image-holder -->
+                            <div class="no-margin col-xs-12 col-sm-5 body-holder">
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                    <div class="excerpt">
+                                        <div class="star-holder">
+                                            <div class="star" data-score="2"></div>
+                                        </div>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis euismod erat sit amet porta. Etiam venenatis ac diam ac tristique. Morbi accumsan consectetur odio ut tincidunt. </p>
+                                    </div>
+                                    <div class="addto-compare">
+                                        <a class="btn-add-to-compare" href="#">add to compare list</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.body-holder -->
+                            <div class="no-margin col-xs-12 col-sm-3 price-area">
+                                <div class="right-clmn">
+                                    <div class="price-current">$1199.00</div>
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="availability"><label>availability:</label><span class="available">in stock</span></div>
+                                    <a class="le-button" href="#">add to cart</a>
+                                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                </div>
+                            </div><!-- /.price-area -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-item -->
+
+                    <div class="product-item product-item-holder">
+                        <div class="row">
+                            <div class="no-margin col-xs-12 col-sm-4 image-holder">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                            </div><!-- /.image-holder -->
+                            <div class="no-margin col-xs-12 col-sm-5 body-holder">
+                                <div class="body">
+                                    <div class="label-discount green">-50% sale</div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                    <div class="excerpt">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis euismod erat sit amet porta. Etiam venenatis ac diam ac tristique. Morbi accumsan consectetur odio ut tincidunt. </p>
+                                    </div>
+                                    <div class="addto-compare">
+                                        <a class="btn-add-to-compare" href="#">add to compare list</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.body-holder -->
+                            <div class="no-margin col-xs-12 col-sm-3 price-area">
+                                <div class="right-clmn">
+                                    <div class="price-current">$1199.00</div>
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="availability"><label>availability:</label><span class="available">  in stock</span></div>
+                                    <a class="le-button" href="#">add to cart</a>
+                                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                </div>
+                            </div><!-- /.price-area -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-item -->
+
+                    <div class="product-item product-item-holder">
+                        <div class="ribbon green"><span>bestseller</span></div> 
+                        <div class="row">
+                            <div class="no-margin col-xs-12 col-sm-4 image-holder">
+                                <div class="image">
+                                    <img alt="" src="assets/images/shop/500x500.gif" />
+                                </div>
+                            </div><!-- /.image-holder -->
+                            <div class="no-margin col-xs-12 col-sm-5 body-holder">
+                                <div class="body">
+                                    <div class="label-discount clear"></div>
+                                    <div class="title">
+                                        <a href="single-product.html">VAIO Fit Laptop - Windows 8 SVF14322CXW</a>
+                                    </div>
+                                    <div class="brand">sony</div>
+                                    <div class="excerpt">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis euismod erat sit amet porta. Etiam venenatis ac diam ac tristique. Morbi accumsan consectetur odio ut tincidunt.</p>
+                                    </div>
+                                    <div class="addto-compare">
+                                        <a class="btn-add-to-compare" href="#">add to compare list</a>
+                                    </div>
+                                </div>
+                            </div><!-- /.body-holder -->
+                            <div class="no-margin col-xs-12 col-sm-3 price-area">
+                                <div class="right-clmn">
+                                    <div class="price-current">$1199.00</div>
+                                    <div class="price-prev">$1399.00</div>
+                                    <div class="availability"><label>availability:</label><span class="available">  in stock</span></div>
+                                    <a class="le-button" href="#">add to cart</a>
+                                    <a class="btn-add-to-wishlist" href="#">add to wishlist</a>
+                                </div>
+                            </div><!-- /.price-area -->
+                        </div><!-- /.row -->
+                    </div><!-- /.product-item -->
+
+                </div><!-- /.products-list -->
+
+                <div class="pagination-holder">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 text-left">
+                            <ul class="pagination">
+                                <li class="current"><a  href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">next</a></li>
+                            </ul><!-- /.pagination -->
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <div class="result-counter">
+                                Showing <span>1-9</span> of <span>11</span> results
+                            </div><!-- /.result-counter -->
+                        </div>
+                    </div><!-- /.row -->
+                </div><!-- /.pagination-holder -->
+
+            </div><!-- /.products-grid #list-view -->
+
+        </div><!-- /.tab-content -->
+    </div><!-- /.grid-list-products -->
+
+</section><!-- /#gaming -->                        
+        </div><!-- /.col -->
+        <!-- SIDEBAR -->
+        <!--===============================================================-->
+               <div class="col-sm-3 col-sm-pull-9">
+            <!-- ========================================= PRODUCT FILTER ========================================= -->
+<div class="widget">
+    <h1>Product Filters</h1>
+    <div class="body bordered">
+        
+        <div class="category-filter">
+            <h2>Brands</h2>
+            <hr>
+            <ul>
+                <li><input checked="checked" class="le-checkbox" type="checkbox"  /> <label>Samsung</label> <span class="pull-right">(2)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Dell</label> <span class="pull-right">(8)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Toshiba</label> <span class="pull-right">(1)</span></li>
+                <li><input  class="le-checkbox" type="checkbox" /> <label>Apple</label> <span class="pull-right">(5)</span></li>
+            </ul>
+        </div><!-- /.category-filter -->
+        
+        <div class="price-filter">
+            <h2>Price</h2>
+            <hr>
+            <div class="price-range-holder">
+
+                <input type="text" class="price-slider" value="" >
+
+                <span class="min-max">
+                    Price: $89 - $2899
+                </span>
+                <span class="filter-button">
+                    <a href="#">Filter</a>
+                </span>
+            </div>
+        </div><!-- /.price-filter -->
+
+    </div><!-- /.body -->
+</div><!-- /.widget -->
+<!-- ========================================= PRODUCT FILTER : END ========================================= -->
+            <!-- ========================================= CATEGORY TREE ========================================= -->
+<div class="widget accordion-widget category-accordions">
+    <h1 class="border">Category Tree</h1>
+    <div class="accordion">
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle" data-toggle="collapse" href="#collapseOne">
+                    laptops &amp; computers
+                </a>
+            </div>
+            <div id="collapseOne" class="accordion-body collapse in">
+                <div class="accordion-inner">
+                    <ul>
+                        <li>
+                            <div class="accordion-heading">
+                                <a href="#collapseSub1" data-toggle="collapse">laptop</a>
+                            </div>
+                            <div id="collapseSub1" class="accordion-body collapse in">
+                                <ul>
+                                    <li><a href="#">Two Level Accordion</a></li>
+                                </ul>
+                            </div><!-- /.accordion-body -->
+                        </li>
+                        <li>
+                            <div class="accordion-heading">
+                                <a href="#collapseSub2" data-toggle="collapse">tablet</a>
+                            </div>
+                            <div id="collapseSub2" class="accordion-body collapse in">
+                                <ul>
+                                    <li>
+                                        <div class="accordion-heading">
+                                            <a href="#collapseSub3" data-toggle="collapse">Three Level Accordion</a>
+                                        </div>
+                                        <div id="collapseSub3" class="accordion-body collapse in">
+                                            <ul>
+                                                <li><a href="#">PDA</a></li>
+                                                <li><a href="#">notebook</a></li>
+                                                <li><a href="#">mini notebook</a></li>
+                                            </ul>
+                                        </div><!-- /.accordion-body -->
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">PDA</a></li>
+                        <li><a href="#">notebook</a></li>
+                        <li><a href="#">mini notebook</a></li>
+                    </ul>
+                </div><!-- /.accordion-inner -->
+            </div>
+        </div><!-- /.accordion-group -->
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse" href="#collapseTwo">
+                    desktop PC
+                </a>
+            </div>
+            <div id="collapseTwo" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">gaming</a></li>
+                        <li><a href="#">office</a></li>
+                        <li><a href="#">kids</a></li>
+                        <li><a href="#">for women</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse"  href="#collapse3">
+                    laptops
+                </a>
+            </div>
+            <div id="collapse3" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">light weight</a></li>
+                        <li><a href="#">wide monitor</a></li>
+                        <li><a href="#">ultra laptop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+
+        <div class="accordion-group">
+            <div class="accordion-heading">
+                <a class="accordion-toggle collapsed" data-toggle="collapse"  href="#collapse4">
+                    notebooks
+                </a>
+            </div>
+            <div id="collapse4" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <ul>
+                        <li><a href="#">light weight</a></li>
+                        <li><a href="#">wide monitor</a></li>
+                        <li><a href="#">ultra laptop</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div><!-- /.accordion-group -->
+
+    </div><!-- /.accordion -->
+</div><!-- /.category-accordions -->
+<!-- ========================================= CATEGORY TREE : END ========================================= -->
+            <!-- ========================================= LINKS ========================================= -->
+<div class="widget">
+    <h1 class="border">information</h1>
+    <div class="body">
+        <ul class="le-links">
+            <li><a href="#">delivery</a></li>
+            <li><a href="#">secure payment</a></li>
+            <li><a href="#">our stores</a></li>
+            <li><a href="#">contact</a></li>
+        </ul><!-- /.le-links -->
+    </div><!-- /.body -->
+</div><!-- /.widget -->
+<!-- ========================================= LINKS : END ========================================= -->
+            <div class="widget">
+	<div class="simple-banner">
+		<a href="#"><img alt="" class="img-responsive" src="assets/images/blank.gif" data-echo="assets/images/banners/banner-simple.jpg" /></a>
+	</div>
+</div>
+            <!-- ========================================= FEATURED PRODUCTS ========================================= -->
+<div class="widget">
+    <h1 class="border">Featured Products</h1>
+    <ul class="product-list">
+        
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">Netbook Acer </a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-03.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-01.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">Netbook Acer </a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>  
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+        
+        <li class="sidebar-product-list-item">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 no-margin">
+                    <a href="#" class="thumb-holder">
+                        <img alt="" src="assets/images/blank.gif" data-echo="assets/images/products/product-small-02.jpg" />
+                    </a>
+                </div>
+                <div class="col-xs-8 col-sm-8 no-margin">
+                    <a href="#">PowerShot Elph 115 16MP Digital Camera</a>
+                    <div class="price">
+                        <div class="price-prev">$2000</div>
+                        <div class="price-current">$1873</div>
+                    </div>
+                </div>
+            </div>
+        </li><!-- /.sidebar-product-list-item -->
+
+    </ul><!-- /.product-list -->
+</div><!-- /.widget -->
+<!-- ========================================= FEATURED PRODUCTS : END ========================================= -->
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION FOOTER -->
+    <!--===============================================================-->
+    <div class="section footer mt-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3 col-xs-12">
+            <div class="logo-footer text-theme">
+              <img src="assets/images/logo/logo-footer.png" alt="theme-img">
+            </div>
+            <p class="text-theme">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet consectetur massa, in efficitur justo aliquam.</p>
+            <div class="text-theme">
+              <ul class="list-inline">
+                <li><a href="#"><i class="fa fa-facebook fa-round"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-round"></i></a></li>
+                <li><a href="#"><i class="fa fa-dribbble fa-round"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin fa-round"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-2 col-sm-offset-1 col-xs-6">
+            <h3 class="text-theme title-sm hr-left">Home</h3>
+            <ul class="list-unstyled text-theme">
+              <li><a href="home-macbook-slider.html">Macbook Slider</a></li>
+              <li><a href="home-filterable-portfolio.html">Filterable Portfolio</a></li>
+              <li><a href="home-application.html">Application</a></li>
+              <li><a href="home-personal-portfolio.html">Personal Option-1</a></li>
+              <li><a href="home-personal-portfolio-option-2.html">Personal Option-2</a></li>
+              <li><a href="home-one-page.html">Agency</a></li>
+              <li><a href="home-photographer.html">Photographer</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-2 col-xs-6">
+            <h3 class="text-theme title-sm hr-left">Pages</h3>
+            <ul class="list-unstyled text-theme">
+              <li><a href="about-us-option-1.html">About Us</a></li>
+              <li><a href="services-option-2.html">Services</a></li>
+              <li><a href="pricetables.html">Pricing Tables</a></li>
+              <li><a href="contact-us-option-1.html">Contact</a></li>
+              <li><a href="coming-soon-option-1.html">Coming Soon</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-xs-12">
+            <h3 class="text-theme title-sm hr-left">Subscribe To Our Newsletter</h3>
+            <div class="input-group text-theme">
+              <input type="text" class="form-control input-lg" placeholder="E-mail">
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-primary input-lg btn-z-index"><i class="fa fa-paper-plane"></i>Subscribe</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--SECTION FOOTER BOTTOM -->
+    <!--===============================================================-->
+    <div class="section footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center col-footer-bottom">
+            <a id="scroll-top" href="#"><i class="fa fa-angle-up fa-2x"></i></a>
+            <p class="copyright">2015 &copy; Z-Theme. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="assets/js/jquery.bxslider.js"></script>
+  <script src="assets/js/page/theme.js"></script>
+  <script src="assets/js/page/page.shop-sidebar-and-item.js"></script>
+</body>
+
+</html>

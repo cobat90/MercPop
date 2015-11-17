@@ -1,0 +1,578 @@
+	<!-- HOME -->
+	<div class="container mt">
+      <div class="row">
+        <!-- MAIN CONTENT -->
+        <!--===============================================================-->
+        <div class="col-sm-9 col-sm-push-3">
+          <div class="row">
+			<div class="col-xs-12 col-sm-12">
+				<form name="search_cat_bar" class="search-input" method="get" action="#">
+					<input type="search" name="dff_keyword" class="form-control" placeholder="Buscar..."> 		   
+					<select name="dff_cat1num" class="form-control" size="1">
+						<option value="-1">Todas Categorias
+						<option value="-2">--------------
+						<option value="101">Eletronicos
+						<option value="193">Moda Feminina
+						<option value="2546">Moda Masculina
+						<option value="271">Esporte e Lazer
+						<option value="292">Automóveis e motos
+						<option value="322">Brinquedos
+						<option value="340">Decoração e casa		
+					</select>
+					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>				
+				</form>
+			</div>
+		  </div>
+			<div class="row">
+            <div class="col-md-12">
+              <!-- SLIDER -->
+              <ul class="bxslider">
+                <li>
+                  <img src="assets/images/shop/shop-item/700x250.gif" alt="img-theme" />
+                </li>
+                <li>
+                  <img src="assets/images/shop/shop-item/700x250.gif" alt="img-theme" />
+                </li>
+              
+              </ul>
+              <div id="bx-pager-shop" class="bx-pager-shop bx-pager-6">
+                <a data-slide-index="0" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+                <a data-slide-index="1" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+                <a data-slide-index="2" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+                <a data-slide-index="3" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+                <a data-slide-index="4" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+                <a data-slide-index="5" href="">
+                  <img src="assets/images/placeholder/80x60.gif" alt="img-theme">
+                </a>
+              </div>
+              <!-- SLIDER END-->
+            </div>
+          </div>
+          <div class="row mt-20">
+            <div class="col-md-12">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs nav-tabs-shop" role="tablist">
+                <li class="active">
+                  <a href="#top-selling-items" role="tab" data-toggle="tab">Mais Vendidos</a>
+                </li>
+                <li>
+                  <a href="#newest-laptops" role="tab" data-toggle="tab">Novos Produtos</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Tab panes -->
+          <div class="tab-content tab-content-shop">
+            <!-- TAB-CONTENT-1 -->
+            <!--===============================================================-->
+            <div class="tab-pane fade in active" id="top-selling-items">
+              <div class="row mt-20">
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">LG Led Tv</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+						<a class="text-theme-sm title-xs text-theme" href="#">Vendedor - Entrega</a>
+						<a class="btn btn-default btn-xs " href="#">Estrelas Vendedor</a>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-item.html"><i class="fa fa-angle-right"></i>Detalhes</a>
+					<button class="btn-menu-top hidden-xs" id="dShop" type="button"><i class="fa fa-heart"></i></button>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Playstation 4</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+					<a class="text-theme-sm title-xs text-theme" href="#">Vendedor - Entrega</a>
+						<a class="btn btn-default btn-xs " href="#">Estrelas Vendedor</a>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-item.html"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Mac Mini</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+					<a class="text-theme-sm title-xs text-theme" href="#">Vendedor - Entrega</a>
+						<a class="btn btn-default btn-xs " href="#">Estrelas Vendedor</a>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-item.html"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-20">
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Ipad Mini</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-cart.html"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-item.html"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Moto G</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-cart.html"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="shop-item.html"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Mac Pro</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-20">
+                <div class="col-sm-12">
+                  <h3 class="title-md hr-left text-theme">Na promoção</h3>
+                </div>
+              </div>
+              <div class="row mt-20">
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Macbook Pro</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Playstation 4</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Nokia Lumia 530</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- TAB-CONTENT-2 -->
+            <!--===============================================================-->
+            <div class="tab-pane fade" id="newest-laptops">
+              <div class="row mt-20">
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Ipad Mini</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Moto G</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Mac Pro</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-20">
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">LG Led Tv</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Playstation 4</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="shop-box bordered">
+                    <a href="#" class="img-box text-theme">
+                      <img class="img-responsive" src="assets/images/shop/500x500.gif" alt="img-theme">
+                    </a>
+                    <h3 class="title-sm text-theme text-theme-sm"><a href="#">Mac Mini</a></h3>
+                    <p class="text-theme-sm"><small>Descrição do produto</small>
+                    </p>
+                    <h3 class="shop-price text-theme-sm">$16.89</h3>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-shopping-cart"></i>Colocar no carrinho</a>
+                    <a class="btn btn-primary btn-tiny btn-sm text-theme-sm" href="#"><i class="fa fa-angle-right"></i>Detalhes</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="pagination pagination-lg mt-50">
+                <li class="active">
+                  <a href="#">1</a>
+                </li>
+                <li>
+                  <a href="#">2</a>
+                </li>
+                <li>
+                  <a href="#">3</a>
+                </li>
+                <li>
+                  <a href="#">4</a>
+                </li>
+                <li>
+                  <a href="#">Next Page »</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- SIDEBAR -->
+        <!--===============================================================-->
+        <div class="col-sm-3 col-sm-pull-9">
+          <div class="row-heading">
+            <div class="col-sm-12">
+              <h5 class="title-sm hr-left text-uppercase">Todas Categorias</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="panel-group accordion" id="acco">
+				<div class="panel accordion-group">
+					<nav class="yamm megamenu-horizontal" role="navigation">
+						<ul class="nav">
+						<li class="dropdown menu-item">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-desktop"></i>Eletronicos</a>
+							<ul class="dropdown-menu mega-menu">
+								<li class="yamm-content">
+									<div class="row">
+										<div class="col-md-4">
+											<ul class="list-unstyled">
+												 <li class="titulo">
+												  <a href="#">Celulares e acessorios 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Celulares 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Baterias 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Capas 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Fones de ouvido 
+												  </a></li>	
+												  <li>
+												  <a href="#">Serviços 
+												  </a></li>	
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="list-unstyled">
+												 <li class="titulo">
+													  <a href="#">Video Games
+													  </a>
+												</li>
+												<li><a href="shop-list.html">Jogos</a></li>
+												<li><a href="checkout.html">Playstation</a></li>
+												<li><a href="about.html">Xbox</a></li>
+												<li><a href="contact.html">Acessórios</a></li>
+												<li>
+												  <a href="#">Serviços 
+												  </a></li>	
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="list-unstyled">
+											<li class="titulo">
+													  <a href="#">Notebooks
+													  </a>
+												</li>
+												<li>
+												  <a href="#">Laptop 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Netbook 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Acessórios 
+												  </a>
+												</li>
+												<li>
+												  <a href="#">Serviços 
+												  </a></li>										 
+											</ul>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</li><!-- /.menu-item -->
+						</ul>
+					</nav>
+				  <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-2">
+					  <i class="fa fa-laptop"></i>Moda Feminina
+					</a>
+				  </div>
+				  <div id="acco-2" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Vestidos</a>
+						</li>
+						<li>
+						  <a href="#">Blusas e Camisas</a>
+						</li>
+						<li>
+						  <a href="#">Shorts</a>
+						</li>
+						<li>
+						  <a href="#">Bikini</a>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				  <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-3">
+					  <i class="fa fa-tablet"></i>Moda Masculinas
+					</a>
+				  </div>
+				  <div id="acco-3" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Camisas</a>
+						</li>
+						<li>
+						  <a href="#">Tênis</a>
+						</li>
+						<li>
+						  <a href="#">Bermudas</a>
+						</li>
+						<li>
+						  <a href="#">Calças</a>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				  <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-4">
+					  <i class="fa fa-tree"></i>Esporte e Lazer
+					</a>
+				  </div>
+				  <div id="acco-4" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Corrida</a>
+						</li>
+						<li>
+						  <a href="#">Ciclismo</a>
+						</li>
+						<li>
+						  <a href="#">Skate</a>
+						</li> 
+					  </ul>
+					</div>
+				  </div>
+				  <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-5">
+					  <i class="fa fa-car"></i>Automóveis e Motos
+					</a>
+				  </div>
+				  <div id="acco-5" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Acessórios</a>
+						</li>
+						<li>
+						  <a href="#">Peças</a>
+						</li>
+						<li>
+						  <a href="#">Multimidia</a>
+						</li> 
+					  </ul>
+					</div>
+				  </div>
+				  <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-6">
+					  <i class="fa fa-child"></i>Brinquedos
+					</a>
+				  </div>
+				  <div id="acco-6" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Brinquedos de meninos</a>
+						</li>
+						<li>
+						  <a href="#">Brinquedos de meninas</a>
+						</li>
+					  </ul>
+					</div>
+				  </div>
+				  
+				   <div class="accordion-heading">
+					<a class="accordion-toggle" data-toggle="collapse" data-parent="#acco" href="#acco-7">
+					  <i class="fa fa-trash-o"></i>Decorações e Casa
+					</a>
+				  </div>
+				  <div id="acco-7" class="accordion-body collapse">
+					<div class="accordion-inner">
+					  <ul class="list-unstyled">
+						<li>
+						  <a href="#">Casa</a>
+						</li>
+						<li>
+						  <a href="#">Decorações</a>
+						</li>
+					  </ul>
+					</div>
+				  </div>  
+				</div>
+              </div>
+            </div>
+          </div>
+          <div class="row-heading">
+            <div class="col-sm-12">
+              <h3 class="title-sm hr-left text-uppercase">Informações</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+				<div class="icon-box bordered">
+					<h3 class="title-sm text-theme">Indique</h3>
+					<p class="text-theme">Indique um lojista agora e ganhe descontos</p>
+					<a class="btn btn-default btn-xs text-theme" href="#">Ler mais</a>
+				</div>
+				<div class="icon-box bordered mt-20">
+					<h3 class="title-sm text-theme">Você é lojista?</h3>
+					<p class="text-theme">Se cadastre e divulgue seus produtos agora!</p>
+					<a class="btn btn-default btn-xs text-theme" href="#">Ler mais</a>
+				</div>
+            </div>
+          </div>
+          <div class="row-heading">
+            <div class="col-sm-12">
+              <h3 class="title-sm hr-left text-uppercase">Tags</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-tags">
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Laptops</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Acer</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Sony</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Intel</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Lenovo</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Pc Case</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Laptops</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Acer</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Sony</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Intel</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Lenovo</a>
+              <a class="btn btn-xs btn-default" href="#"><i class="fa fa-tags"></i>Pc Case</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- Fim HOME -->

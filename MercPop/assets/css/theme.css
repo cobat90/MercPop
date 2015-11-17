@@ -2879,10 +2879,6 @@ form.search-input > a {
 	margin-left: 40px;
 }
 
-.ml-20 {
-	margin-left: 20px;
-}
-
 @media (max-width: 767px) {
     .text-center-xs {
         text-align: center;
