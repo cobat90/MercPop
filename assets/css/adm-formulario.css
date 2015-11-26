@@ -362,6 +362,9 @@ input[type="text"].error , input[type="password"].error, ul.tagit.error
 {
 	display:inline;
 }
+.box-size{
+	width:150px;
+}
 
 .boxGeralConteudo .cke_top
 {
@@ -377,6 +380,7 @@ input[type="text"].error , input[type="password"].error, ul.tagit.error
 	background:none;
 	box-shadow:none;
 }
+
 
 .boxGeralConteudo .cke_bottom
 {

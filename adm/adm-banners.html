@@ -151,18 +151,34 @@
         <!--===============================================================-->
         <div class="col-sm-9 col-sm-push-3 mb">
           <div class="row">
-			<div class="col-xs-12 col-sm-12 ">
+			<div class="col-xs-12 col-sm-12 ml-20">
 				<h3 class="title-v2">Banners e Slides</h3>
 				<form action="//app.lojaintegrada.com.br/painel/marketing/banner/tarja/criar" method="post" class="form-horizontal" enctype="multipart/form-data">
   
 					<div class="box editar-banner">
-					  <div class="box-header">
-						<h3 class="pull-left">Criando banner</h3>
-					  </div>
+					  
 					  <div class="box-content">
 						<div class="row">
 						  <div class="col-sm-6">
 							<div class="banner-acoes">
+								<div class="form-group">
+								  <label for="" class="control-label col-sm-3">
+									<strong>
+									  Posição do banner:
+									</strong>
+								  </label>
+								  <div class="col-sm-9">
+										<select class="form-control" id="id_pagina_publicacao" maxlength="32" name="posicao_banner">
+											<option value="Tarja">Banner Tarja</option>
+											<option value="Vitrine">Banner Vitrine</option>
+											<option value="Full">Full Banner</option>
+											<option value="Mini">Mini Banner</option>
+											<option value="Lateral_Full">Banner Lateral Do Full Banner</option>
+											<option value="Lateral">Banner Lateral</option>
+											
+										</select>
+								  </div>
+								</div>
 							  <div class="form-group">
 								<label class="control-label col-sm-3"><strong>Banner ativo?</strong></label>
 								<div class="col-sm-9">
@@ -181,16 +197,7 @@
 								</div>
 							  </div>
 							  
-								<div class="form-group">
-								  <label for="" class="control-label col-sm-3">
-									<strong>
-									  Posição do banner:
-									</strong>
-								  </label>
-								  <div class="col-sm-9">
-									<h4>Banner Tarja</h4>
-								  </div>
-								</div>
+							
 								<input type="hidden" name="local_publicacao" id="id_local_publicacao" value="tarja" />
 							  
 							  <div class="form-group ">
@@ -261,81 +268,7 @@
 							  
 							</div>
 						  </div>
-						  <div class="col-sm-6">
-							<div class="posicao-banners">
-							  <h4>Posição do Banner</h4>
-							  <p>Na nova estrutura o tamaho dos banners variam de acordo com a disposição escolhida no menu configurar tema e a resolução da tela, <a href="//suporte.lojaintegrada.com.br/hc/pt-br/articles/200383194-Banners" target="_blank">clique aqui</a> para saber mais detalhes sobre as dimensões.</p>
-							  <div class="mapa-banners hidden-xs">
-								<div class="row">
-								  <div class="col-sm-12">
-									<div class="map fullbanner">
-									  <strong>Full banner</strong>
-									  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 1140px<br />Altura recomendada: 300px" class="dica tip">?</a>
-									  <div class="col-sm-3 map sidebar">
-										<strong>Lateral f.banner</strong>
-									  </div>
-									</div>
-								  </div>
-								</div>
-								<div class="row mini-banners">
-								  <div class="col-sm-4">
-									<div class="map minibanner"></div>
-								  </div>
-								  <div class="col-sm-4">
-									<div class="map minibanner">
-									  <strong>Mini banners</strong>
-									</div>
-								  </div>
-								  <div class="col-sm-4">
-									<div class="map minibanner">
-									  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 360px<br />Altura recomendada: 200px" class="dica tip">?</a>
-									</div>
-								  </div>
-								</div>
-								<div class="row">
-								  <div class="col-sm-12">
-									<div class="map tarja">
-									  <strong>Banner tarja</strong>
-									  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 1140px<br />Altura recomendada: 70px" class="dica tip">?</a>
-									</div>
-								  </div>
-								</div>
-								<div class="row">
-								  <div class="col-sm-3">
-									<div class="map esquerda">
-									  <strong>Banner lateral</strong>
-									  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 260px<br />Altura recomendada: 400px" class="dica tip">?</a>
-									</div>
-								  </div>
-								  <div class="col-sm-9">
-									<div class="row">
-									  <div class="col-sm-12">
-										<div class="map vitrine">
-										  <strong>Banner vitrine</strong>
-										  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 850px<br />Altura recomendada: 200px" class="dica tip">?</a>
-										</div>
-									  </div>
-									</div>
-									<div class="row mini-banners">
-									  <div class="col-sm-4">
-										<div class="map minibanner"></div>
-									  </div>
-									  <div class="col-sm-4">
-										<div class="map inner minibanner">
-										  <strong>Mini Banners</strong>
-										</div>
-									  </div>
-									  <div class="col-sm-4">
-										<div class="map minibanner">
-										  <a href="#" data-toggle="tooltip" data-placement="top" data-html="true" data-original-title="Largura recomendada: 360px<br />Altura recomendada: 200px" class="dica tip">?</a>
-										</div>
-									  </div>
-									</div>
-								  </div>
-								</div>
-							  </div><!-- mapa-banners -->
-							</div><!-- posicao-banners -->
-						  </div>
+						  
 						</div> <!-- row -->
 						<hr>
 						<div class="subir-banner hidden-xs">

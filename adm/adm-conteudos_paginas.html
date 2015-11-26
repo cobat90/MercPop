@@ -150,14 +150,12 @@
         <!--===============================================================-->
         <div class="col-sm-9 col-sm-push-3 mb">
           <div class="row">
-			<div class="col-xs-12 col-sm-12 ">
+			<div class="col-xs-12 col-sm-12 ml-20">
 				<h3 class="title-v2">Conteudo e Páginas</h3>
-				<form action="//app.lojaintegrada.com.br/painel/plataforma/pagina/criar/" method="post" class="form-pagina">
+				<form action="#" method="post" class="form-pagina">
     
         <div class="box">
-            <div class="box-header">
-                <h3 class="pull-left">Criando página</h3>
-            </div>
+            
             <div class="box-content">
                 <div class="form-inline">
 		    <div class="form-group">
@@ -168,16 +166,24 @@
 </select>
 		    </div>
                 </div>
+				<div class="form-inline">
+				 <div class="form-group">
+                    	<label>Tipo de página:</label>
+                    	<select class="form-control" id="id_tipo" name="tipo_pagina" style="width:200px;">
+						<option value="True">Sobre</option>
+						<option value="False">FAQ</option>
+						<option value="False">Divulgação</option>
+						<option value="False">Indicação</option>
+						<option value="False">Informação</option>
+						</select>
+		    </div>
+			</div>
 		<hr>
                 <div class="obrigatorio campo_titulo ">
                     <label for="id_titulo">Título da página</label>
                     <div>
                         <input class="campo_principal urlify form-control" id="id_titulo" maxlength="100" name="titulo" rel=".url-slug,#id_url" type="text" />
-                        <div class="control-seamless-editable">
-                            <!--<i class="icon-custom icon-pencil"></i>-->
-                            <input id="id_url" name="url" type="text" />
-                        </div>
-                        
+                      
                     </div>
                 </div>
 		<hr>

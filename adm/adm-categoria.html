@@ -150,124 +150,118 @@
           <div class="row">
 			<div class="col-xs-12 col-sm-12 ">
 				<h3 class="title-v2">Categorias</h3>
-		<form action="cria" class="form-categoria form-horizontal" method="post">
-  
-    <div class="box">
-    
-      <div class="box-content">
-        <div class="form-horizontal">
-          <div class="form-group">
-            <label class="control-label col-sm-3">Categoria ativa?</label>
-            <div class="col-sm-9">
-              <select class="form-control" id="id_ativa" name="ativa">
-<option value="True">Sim</option>
-<option value="False">Não</option>
-</select>
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="control-label col-sm-3">Categoria em destaque?</label>
-            <div class="col-sm-9">
-              <select class="form-control" id="id_destaque" name="destaque">
-<option value="True">Sim</option>
-<option value="False" selected="selected">Não</option>
-</select>
-            </div>
-          </div>
-          <div class="form-group " rel="tooltip" data-original-title="Selecione uma categoria pai caso a categoria que você está criando pertença a alguma outra categoria já criada, caso contrário deixe selecionado Raiz.">
-            
-              <label class="control-label col-sm-3" for="id_parent">Categoria Pai</label>
-              <div class="col-sm-9">
-                <p class="help-block hidden-xs">Selecione uma categoria pai para organizar suas categorias hierarquicamente. Sempre que você seleciona uma categoria pai, sua categoria se tornará filha dela, ou seja, sempre será mostrada ab    aixo da categoria pai. Por exemplo, uma categoria pai pode ser <strong>Acessórios</strong> e as categorias filhas podem ser <strong>Cintos, Gravatas ou Meias</strong>.</p>
-                
-                <select class="form-control" id="id_parent" name="parent">
-</select>
-                
-                
-              </div>
-            
-          </div>
-          <div class="form-group obrigatorio campo_nome ">
-            <label class="control-label col-sm-3" for="id_nome">Nome</label>
-            <div class="col-sm-9">
-              <input class="campo_principal urlify form-control" id="id_nome" maxlength="255" name="nome" type="text" />
-              <div class="control-seamless-editable">
-                <span class="control">http://temporario-nova-loja-lah82.lojaintegrada.com.br/<span class="url-slug urlify"></span></span>
-                <span class="glyphicon glyphicon-pencil" id="url-edit" rel="tooltip" title="Edita o link da categoria na loja."></span>
-                <span class="glyphicon glyphicon-remove" id="url-remove" rel="tooltip" title="Cancela as alterações feitas no link da categoria."></span>
-                
-              </div>
-            </div>
-          </div>
-          <div class="form-group none" id="form-group-url">
-            <label class="control-label col-sm-3 table-url-label" nowrap="nowrap">Nova URL</label>
-            <div class="col-sm-9">
-              <div class="input-group">
-                <input class="form-control" id="id_url" maxlength="255" name="url" type="text" />
-                <div class="input-group-btn table-url-validate-button" nowrap="nowrap">
-                  <button class="btn btn-default" type="button" id="url-validate" data-loading-text="Validando...">Validar</button>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-          <div class="form-group ">
-            <label class="control-label col-sm-3" for="id_descricao">Descrição</label>
-            <div class="col-sm-9">
-              <p class="help-block hidden-xs">A descrição da categoria será mostrada na página da categoria, logo abaixo do menu lateral. Este conteúdo é de extrema importância para os motores de busca entenderem do que se trata sua categoria.</p>
-              <textarea class="form-control" cols="40" id="id_descricao" maxlength="4000" name="descricao" rows="3">
-</textarea>
-              
-              
-              <small class="desc-maxlength pull-right" style="margin: 5px 0 -20px;">Caracteres: <span class="atual"></span> de <span class="max">4.000</span></small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+				<form class="form-produto well well-sm" action="cria" class="form-categoria form-horizontal" method="post">
+					<div class="box">
+					
+					  <div class="box-content">
+						<h4>Nova Categoria</h4>
+						<div class="form-horizontal">
+						  <div class="form-group">
+							<label class="control-label col-sm-3">Categoria ativa?</label>
+							<div class="col-sm-9">
+							  <select class="form-control" id="id_ativa" name="ativa" style="width:90px;">
+				<option value="True">Sim</option>
+				<option value="False">Não</option>
+				</select>
+							</div>
+						  </div>
+						  <div class="form-group">
+							<label class="control-label col-sm-3">Categoria em destaque?</label>
+							<div class="col-sm-9">
+							  <select class="form-control" id="id_destaque" name="destaque" style="width:90px;">
+				<option value="True">Sim</option>
+				<option value="False" selected="selected">Não</option>
+				</select>
+							</div>
+						  </div>
+						  <div class="form-group " rel="tooltip" data-original-title="Selecione uma categoria pai caso a categoria que você está criando pertença a alguma outra categoria já criada, caso contrário deixe selecionado Raiz.">
+							
+							  <label class="control-label col-sm-3" for="id_parent">Categoria Pai</label>
+							  <div class="col-sm-9">
+								<p class="help-block hidden-xs">Escolha uma categoria pai para suas categorias ficarem organizadas hierarquicamente.</p>
+								
+								<select class="form-control" id="id_parent" name="parent" style="width:350px;">
+				</select>
+								
+								
+							  </div>
+							
+						  </div>
+						  <div class="form-group obrigatorio campo_nome ">
+							<label class="control-label col-sm-3" for="id_nome">Nome</label>
+							<div class="col-sm-9">
+							  <input class="campo_principal urlify form-control" id="id_nome" maxlength="255" name="nome" type="text" style="width:350px;"/>
+							 
+							</div>
+						  </div>
+						  <div class="form-group none" id="form-group-url">
+							<label class="control-label col-sm-3 table-url-label" nowrap="nowrap">Nova URL</label>
+							<div class="col-sm-9">
+							  <div class="input-group">
+								<input class="form-control" id="id_url" maxlength="255" name="url" type="text" />
+								<div class="input-group-btn table-url-validate-button" nowrap="nowrap">
+								  <button class="btn btn-default" type="button" id="url-validate" data-loading-text="Validando...">Validar</button>
+								</div>
+							  </div>
+							  
+							</div>
+						  </div>
+						  <div class="form-group ">
+							<label class="control-label col-sm-3" for="id_descricao">Descrição</label>
+							<div class="col-sm-9">
+							  <textarea class="form-control" cols="40" id="id_descricao" maxlength="4000" name="descricao" rows="3">
+				</textarea>
+							  
+							  
+							  <small class="desc-maxlength pull-right" style="margin: 5px 0 -20px;">Caracteres: <span class="atual"></span> de <span class="max">4.000</span></small>
+							</div>
+						  </div>
+						</div>
+					  </div>
+					</div>
 
-    <div class="box box-seo">
-      <div class="box-header accordion-toggle pointer" data-toggle="collapse" data-target="#area-seo">
-        <h3>Otimização para buscadores (SEO)</h3>
-        <div class="pull-right arrow-open"><span class="glyphicon glyphicon-chevron-down"></span></div>
-      </div>
-      <div class="box-content collapse" id="area-seo">
-        <div class="accordion-inner form-horizontal">
-          <div class="form-group ">
-            <label class="control-label col-sm-3" for="id_title">
-              Tag Title
-            
-            </label>
-            <div class="col-sm-9">
-              <input class="form-control" id="id_title" maxlength="255" name="title" type="text" />
-            </div>
-            <p class="pull-right contador bot" id="titleCont"></p>
-            
-          </div>
+			<div class="box box-seo">
+			  <div class="box-header accordion-toggle pointer" data-toggle="collapse" data-target="#area-seo">
+				<h3>Otimização para buscadores (SEO)</h3>
+				<div class="pull-right arrow-open"><span class="glyphicon glyphicon-chevron-down"></span></div>
+			  </div>
+			  <div class="box-content collapse" id="area-seo">
+				<div class="accordion-inner form-horizontal">
+				  <div class="form-group ">
+					<label class="control-label col-sm-3" for="id_title">
+					  Tag Title
+					
+					</label>
+					<div class="col-sm-9">
+					  <input class="form-control" id="id_title" maxlength="255" name="title" type="text" />
+					</div>
+					<p class="pull-right contador bot" id="titleCont"></p>
+					
+				  </div>
 
-          <div class="form-group ">
-            <label class="control-label col-sm-3" for="id_description">
-              Meta Tag Description
-              
-            </label>
-            <div class="col-sm-9">
-              <textarea class="form-control" cols="40" id="id_description" maxlength="255" name="description" rows="3">
-</textarea>
-            </div>
-            <p class="pull-right contador bot" id="descrCont"></p>
-            
-          </div>
-        </div>
-      </div>
-    </div>
+				  <div class="form-group ">
+					<label class="control-label col-sm-3" for="id_description">
+					  Meta Tag Description
+					  
+					</label>
+					<div class="col-sm-9">
+					  <textarea class="form-control" cols="40" id="id_description" maxlength="255" name="description" rows="3">
+		</textarea>
+					</div>
+					<p class="pull-right contador bot" id="descrCont"></p>
+					
+				  </div>
+				</div>
+			  </div>
+			</div>
 
-    <div class="btn-group-md text-right">
-      
-      <button type="submit" class="btn btn-primary">
-        <span class="glyphicon glyphicon-ok"></span> Criar categoria
-      </button>
-    </div>
-  </form>
+			<div class="btn-group-md text-right mt">
+			  
+			  <button type="submit" class="btn btn-primary">
+				<span class="glyphicon glyphicon-ok"></span> Criar categoria
+			  </button>
+			</div>
+		  </form>
 
 			</div>
 		  </div>
